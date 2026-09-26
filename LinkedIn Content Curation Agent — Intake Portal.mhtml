@@ -1,0 +1,3232 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/scaru/Downloads/LinkedIn%20Content%20Curation%20Agent%20%E2%80%94%20Intake%20Portal.html
+Subject: =?utf-8?Q?LinkedIn=20Content=20Curation=20Agent=20=E2=80=94=20Intake=20Po?=
+ =?utf-8?Q?rtal?=
+Date: Sat, 26 Sep 2026 21:54:59 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----"
+
+
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----
+Content-Type: text/html
+Content-ID: <frame-B7F64A945ED479DDDF9E464E6FD0D345@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/scaru/Downloads/LinkedIn%20Content%20Curation%20Agent%20%E2%80%94%20Intake%20Portal.html
+
+<!DOCTYPE html><!-- saved from url=3D(0069)file:///C:/Users/scaru/Downloads=
+/LinkedIn_Content_Curation_Agent.html --><html lang=3D"en"><head><meta http=
+-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D=
+"stylesheet" type=3D"text/css" href=3D"cid:css-a8afdde3-e201-4359-9729-353e=
+7063310d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"=
+cid:css-67ac8b7a-bee6-4764-b5fa-11345c1d98ba@mhtml.blink" /><link rel=3D"st=
+ylesheet" type=3D"text/css" href=3D"cid:css-37cea691-6c2a-4048-bb61-bca2d49=
+c2b5e@mhtml.blink" />
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>LinkedIn Content Curation Agent =E2=80=94 Intake Portal</title>
+  <link rel=3D"preconnect" href=3D"https://fonts.googleapis.com/">
+  <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com/" crossorigin=
+=3D"">
+  <link href=3D"file:///C:/Users/scaru/Downloads/LinkedIn%20Content%20Curat=
+ion%20Agent%20%E2%80%94%20Intake%20Portal_files/css2" rel=3D"stylesheet">
+ =20
+ =20
+ =20
+ =20
+ =20
+</head>
+<body data-id=3D"0" class=3D"bg-surface-50">
+ =20
+
+  <!-- Toast -->
+  <div data-id=3D"2" id=3D"toast-el" class=3D"toast toast-success"><span da=
+ta-id=3D"3" id=3D"toast-text-el"></span></div>
+
+  <!-- Modal -->
+  <div data-id=3D"4" id=3D"modal-overlay-el" class=3D"modal-overlay">
+    <div data-id=3D"5" class=3D"modal-content">
+      <div data-id=3D"6" class=3D"flex items-center justify-between mb-4">
+        <h3 data-id=3D"7" class=3D"text-lg font-semibold text-gray-800">Sub=
+mitted JSON Payload</h3>
+        <button data-id=3D"8" id=3D"modal-close-x" class=3D"p-1 rounded hov=
+er:bg-gray-100 text-gray-400 cursor-pointer border-none bg-transparent"><sv=
+g xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"x" aria-hidd=
+en=3D"true" data-id=3D"9" class=3D"lucide lucide-x w-5 h-5"><path d=3D"M18 =
+6 6 18"></path><path d=3D"m6 6 12 12"></path></svg></button>
+      </div>
+      <pre data-id=3D"10" id=3D"modal-json-el" class=3D"json-preview" style=
+=3D"max-height:44vh;position:static;"></pre>
+      <!-- FIX #3: Manual send fallback div -->
+      <div data-id=3D"11" id=3D"modal-manual-send" style=3D"display:none;ba=
+ckground:#fef9c3;border:1.5px solid #f59e0b;border-radius:8px;padding:14px;=
+margin-top:14px;font-size:13px;color:#92400e;">
+        <p data-id=3D"12" style=3D"margin:0 0 10px 0;">=E2=9A=A0=EF=B8=8F W=
+ebhook could not be reached automatically. Copy the payload and paste it in=
+to your Power Automate HTTP trigger test panel.</p>
+        <button data-id=3D"13" id=3D"modal-manual-copy-el" style=3D"backgro=
+und:#f59e0b;color:#fff;border:none;border-radius:6px;padding:8px 16px;font-=
+size:13px;font-weight:600;cursor:pointer;display:inline-flex;align-items:ce=
+nter;gap:6px;">=F0=9F=93=8B Copy Payload &amp; Close</button>
+      </div>
+      <div data-id=3D"14" class=3D"flex gap-3 mt-5">
+        <button data-id=3D"15" id=3D"modal-copy-el" class=3D"btn-primary te=
+xt-sm"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24"=
+ viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=
+=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"co=
+py" aria-hidden=3D"true" data-id=3D"16" class=3D"lucide lucide-copy w-4 h-4=
+"><rect width=3D"14" height=3D"14" x=3D"8" y=3D"8" rx=3D"2" ry=3D"2"></rect=
+><path d=3D"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path=
+></svg> Copy JSON</button>
+        <button data-id=3D"17" id=3D"modal-close-el" class=3D"px-5 py-2.5 r=
+ounded-lg border border-gray-300 text-gray-600 font-medium text-sm hover:bg=
+-gray-50 cursor-pointer">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Overlay -->
+  <div data-id=3D"18" id=3D"success-overlay-el" class=3D"success-overlay">
+    <div data-id=3D"19" class=3D"success-card">
+      <div data-id=3D"20" class=3D"text-5xl mb-4">=F0=9F=8E=89</div>
+      <h2 data-id=3D"21" class=3D"text-xl font-bold text-gray-900 mb-2">Pos=
+t Published Successfully!</h2>
+      <p data-id=3D"22" class=3D"text-sm text-gray-500 mb-5">Your LinkedIn =
+post has been published. The run has been logged to Run History.</p>
+      <div data-id=3D"23" class=3D"text-left bg-gray-50 rounded-lg p-4 mb-5=
+ text-sm space-y-2">
+        <div data-id=3D"24" class=3D"flex justify-between"><span data-id=3D=
+"25" class=3D"text-gray-500">Run ID</span><span data-id=3D"26" class=3D"fon=
+t-mono font-semibold text-gray-800" id=3D"success-rid"></span></div>
+        <div data-id=3D"27" class=3D"flex justify-between"><span data-id=3D=
+"28" class=3D"text-gray-500">Published At</span><span data-id=3D"29" class=
+=3D"text-gray-800 tabular-nums" id=3D"success-ts"></span></div>
+        <div data-id=3D"30" class=3D"flex justify-between"><span data-id=3D=
+"31" class=3D"text-gray-500">Primary Source</span><span data-id=3D"32" clas=
+s=3D"text-gray-800 font-medium" id=3D"success-art"></span></div>
+        <div data-id=3D"33" class=3D"flex justify-between"><span data-id=3D=
+"34" class=3D"text-gray-500">Approver</span><span data-id=3D"35" class=3D"t=
+ext-gray-800" id=3D"success-appr"></span></div>
+      </div>
+      <div data-id=3D"36" class=3D"flex gap-3 justify-center">
+        <button data-id=3D"37" id=3D"success-view-el" class=3D"btn-primary =
+text-sm py-2.5 px-5">View on LinkedIn (simulated)</button>
+        <button data-id=3D"38" id=3D"success-close-el" class=3D"px-5 py-2.5=
+ rounded-lg border border-gray-300 text-gray-600 font-medium text-sm hover:=
+bg-gray-50 cursor-pointer">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reject Modal -->
+  <div data-id=3D"39" id=3D"reject-overlay-el" class=3D"reject-modal-overla=
+y">
+    <div data-id=3D"40" class=3D"modal-content" style=3D"max-width:480px;">
+      <div data-id=3D"41" class=3D"flex items-center justify-between mb-4">
+        <h3 data-id=3D"42" class=3D"text-lg font-semibold text-gray-800">Re=
+ject Run</h3>
+        <button data-id=3D"43" id=3D"reject-close-el" class=3D"p-1 rounded =
+hover:bg-gray-100 text-gray-400 cursor-pointer border-none bg-transparent">=
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBo=
+x=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" st=
+roke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"x" aria-hid=
+den=3D"true" data-id=3D"44" class=3D"lucide lucide-x w-5 h-5"><path d=3D"M1=
+8 6 6 18"></path><path d=3D"m6 6 12 12"></path></svg></button>
+      </div>
+      <label data-id=3D"45" class=3D"form-label">Reason for Rejection</labe=
+l>
+      <textarea data-id=3D"46" id=3D"reject-reason-el" class=3D"form-input"=
+ rows=3D"4" placeholder=3D"Explain why this post was rejected..." style=3D"=
+resize:vertical;"></textarea>
+      <div data-id=3D"47" class=3D"flex gap-3 mt-4 justify-end">
+        <button data-id=3D"48" id=3D"reject-cancel-el" class=3D"px-5 py-2.5=
+ rounded-lg border border-gray-300 text-gray-600 font-medium text-sm hover:=
+bg-gray-50 cursor-pointer">Cancel</button>
+        <button data-id=3D"49" id=3D"reject-submit-el" class=3D"px-5 py-2.5=
+ rounded-lg text-sm font-semibold cursor-pointer text-white border-none" st=
+yle=3D"background:#cc1016;">Submit Rejection</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Drawer -->
+  <div data-id=3D"50" id=3D"drawer-overlay-el" class=3D"drawer-overlay"></d=
+iv>
+  <div data-id=3D"51" id=3D"drawer-panel-el" class=3D"drawer-panel">
+    <div data-id=3D"52" class=3D"flex items-center justify-between mb-5">
+      <h3 data-id=3D"53" class=3D"text-lg font-semibold text-gray-800">Run =
+Details</h3>
+      <button data-id=3D"54" id=3D"drawer-close-el" class=3D"p-1 rounded ho=
+ver:bg-gray-100 text-gray-400 cursor-pointer"><svg xmlns=3D"http://www.w3.o=
+rg/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke=
+-linejoin=3D"round" data-lucide=3D"x" aria-hidden=3D"true" data-id=3D"55" c=
+lass=3D"lucide lucide-x w-5 h-5"><path d=3D"M18 6 6 18"></path><path d=3D"m=
+6 6 12 12"></path></svg></button>
+    </div>
+    <div data-id=3D"56" id=3D"drawer-content-el"></div>
+  </div>
+
+  <!-- Mobile Top Bar -->
+  <div data-id=3D"57" class=3D"mobile-topbar" id=3D"mobile-topbar-el">
+    <button data-id=3D"58" id=3D"mobile-hamburger-el" class=3D"p-2 rounded-=
+lg text-white cursor-pointer bg-transparent border-none">
+      <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" =
+viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D=
+"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"menu"=
+ aria-hidden=3D"true" data-id=3D"59" class=3D"lucide lucide-menu w-6 h-6"><=
+path d=3D"M4 5h16"></path><path d=3D"M4 12h16"></path><path d=3D"M4 19h16">=
+</path></svg>
+    </button>
+    <div data-id=3D"60" class=3D"flex items-center gap-2 flex-1">
+      <div data-id=3D"61" class=3D"w-7 h-7 rounded-lg bg-linkedin flex item=
+s-center justify-center flex-shrink-0">
+        <svg data-id=3D"62" width=3D"14" height=3D"14" fill=3D"none" viewBo=
+x=3D"0 0 24 24" stroke=3D"white" stroke-width=3D"2"><path data-id=3D"63" d=
+=3D"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></pat=
+h><rect data-id=3D"64" x=3D"2" y=3D"9" width=3D"4" height=3D"12"></rect><ci=
+rcle data-id=3D"65" cx=3D"4" cy=3D"4" r=3D"2"></circle></svg>
+      </div>
+      <span data-id=3D"66" class=3D"text-white text-sm font-semibold">Conte=
+nt Agent</span>
+    </div>
+    <div data-id=3D"67" class=3D"w-8 h-8 rounded-full bg-linkedin-light fle=
+x items-center justify-center text-white text-xs font-bold">SC</div>
+  </div>
+  <div data-id=3D"68" class=3D"mobile-nav-drawer" id=3D"mobile-nav-el">
+    <div data-id=3D"69" class=3D"nav-item active" data-view=3D"new-request"=
+ data-mobile=3D"1"><svg data-id=3D"70" class=3D"nav-icon" fill=3D"none" vie=
+wBox=3D"0 0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><rect data-id=
+=3D"71" x=3D"3" y=3D"3" width=3D"18" height=3D"18" rx=3D"2"></rect><path da=
+ta-id=3D"72" d=3D"M9 7h6M9 11h6M9 15h4"></path></svg><span data-id=3D"73">N=
+ew Request</span></div>
+    <div data-id=3D"74" class=3D"nav-item" data-view=3D"workflow-status" da=
+ta-mobile=3D"1"><svg data-id=3D"75" class=3D"nav-icon" fill=3D"none" viewBo=
+x=3D"0 0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><path data-id=3D=
+"76" d=3D"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"></path><path data-id=3D=
+"77" d=3D"M2 12h4M18 12h4M12 2v4M12 18v4"></path></svg><span data-id=3D"78"=
+>Workflow Status</span></div>
+    <div data-id=3D"79" class=3D"nav-item" data-view=3D"run-history" data-m=
+obile=3D"1"><svg data-id=3D"80" class=3D"nav-icon" fill=3D"none" viewBox=3D=
+"0 0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><circle data-id=3D"8=
+1" cx=3D"12" cy=3D"12" r=3D"10"></circle><polyline data-id=3D"82" points=3D=
+"12 6 12 12 16 14"></polyline></svg><span data-id=3D"83">Run History</span>=
+</div>
+    <div data-id=3D"84" class=3D"nav-item" data-view=3D"dashboard" data-mob=
+ile=3D"1"><svg data-id=3D"85" class=3D"nav-icon" fill=3D"none" viewBox=3D"0=
+ 0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><rect data-id=3D"86" x=
+=3D"3" y=3D"3" width=3D"7" height=3D"9" rx=3D"1"></rect><rect data-id=3D"87=
+" x=3D"14" y=3D"3" width=3D"7" height=3D"5" rx=3D"1"></rect><rect data-id=
+=3D"88" x=3D"14" y=3D"12" width=3D"7" height=3D"9" rx=3D"1"></rect><rect da=
+ta-id=3D"89" x=3D"3" y=3D"16" width=3D"7" height=3D"5" rx=3D"1"></rect></sv=
+g><span data-id=3D"90">Dashboard</span></div>
+    <div data-id=3D"91" class=3D"nav-item" data-view=3D"settings" data-mobi=
+le=3D"1"><svg data-id=3D"92" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><circle data-id=3D"93" =
+cx=3D"12" cy=3D"12" r=3D"3"></circle><path data-id=3D"94" d=3D"M12 1v2M12 2=
+1v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.4=
+2-1.42M18.36 5.64l1.42-1.42"></path></svg><span data-id=3D"95">Settings</sp=
+an></div>
+  </div>
+
+  <!-- Sidebar -->
+  <aside data-id=3D"96" class=3D"sidebar" id=3D"sidebar-el">
+    <div data-id=3D"97" class=3D"px-4 pt-5 pb-2">
+      <div data-id=3D"98" class=3D"flex items-center gap-2.5 mb-1">
+        <div data-id=3D"99" class=3D"w-8 h-8 rounded-lg bg-linkedin flex it=
+ems-center justify-center flex-shrink-0">
+          <svg data-id=3D"100" width=3D"16" height=3D"16" fill=3D"none" vie=
+wBox=3D"0 0 24 24" stroke=3D"white" stroke-width=3D"2"><path data-id=3D"101=
+" d=3D"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></=
+path><rect data-id=3D"102" x=3D"2" y=3D"9" width=3D"4" height=3D"12"></rect=
+><circle data-id=3D"103" cx=3D"4" cy=3D"4" r=3D"2"></circle></svg>
+        </div>
+        <div data-id=3D"104">
+          <div data-id=3D"105" class=3D"text-white text-sm font-semibold le=
+ading-tight">Content Agent</div>
+          <div data-id=3D"106" class=3D"text-xs text-blue-400 font-medium m=
+t-0.5 opacity-70">Intake Portal</div>
+        </div>
+      </div>
+    </div>
+    <div data-id=3D"107" class=3D"mt-3 px-1 flex-1">
+      <div data-id=3D"108" class=3D"nav-item active" data-view=3D"new-reque=
+st">
+        <svg data-id=3D"109" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><rect data-id=3D"110" x=
+=3D"3" y=3D"3" width=3D"18" height=3D"18" rx=3D"2"></rect><path data-id=3D"=
+111" d=3D"M9 7h6M9 11h6M9 15h4"></path></svg>
+        <span data-id=3D"112">New Request</span>
+      </div>
+      <div data-id=3D"113" class=3D"nav-item" data-view=3D"workflow-status"=
+>
+        <svg data-id=3D"114" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><path data-id=3D"115" d=
+=3D"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"></path><path data-id=3D"116" =
+d=3D"M2 12h4M18 12h4M12 2v4M12 18v4"></path></svg>
+        <span data-id=3D"117">Workflow Status</span>
+      </div>
+      <div data-id=3D"118" class=3D"nav-item" data-view=3D"run-history">
+        <svg data-id=3D"119" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><circle data-id=3D"120"=
+ cx=3D"12" cy=3D"12" r=3D"10"></circle><polyline data-id=3D"121" points=3D"=
+12 6 12 12 16 14"></polyline></svg>
+        <span data-id=3D"122">Run History</span>
+      </div>
+      <div data-id=3D"123" class=3D"nav-item" data-view=3D"dashboard">
+        <svg data-id=3D"124" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><rect data-id=3D"125" x=
+=3D"3" y=3D"3" width=3D"7" height=3D"9" rx=3D"1"></rect><rect data-id=3D"12=
+6" x=3D"14" y=3D"3" width=3D"7" height=3D"5" rx=3D"1"></rect><rect data-id=
+=3D"127" x=3D"14" y=3D"12" width=3D"7" height=3D"9" rx=3D"1"></rect><rect d=
+ata-id=3D"128" x=3D"3" y=3D"16" width=3D"7" height=3D"5" rx=3D"1"></rect></=
+svg>
+        <span data-id=3D"129">Dashboard</span>
+      </div>
+      <div data-id=3D"130" class=3D"nav-item" data-view=3D"settings">
+        <svg data-id=3D"131" class=3D"nav-icon" fill=3D"none" viewBox=3D"0 =
+0 24 24" stroke=3D"currentColor" stroke-width=3D"2"><circle data-id=3D"132"=
+ cx=3D"12" cy=3D"12" r=3D"3"></circle><path data-id=3D"133" d=3D"M12 1v2M12=
+ 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1=
+.42-1.42M18.36 5.64l1.42-1.42"></path></svg>
+        <span data-id=3D"134">Settings</span>
+      </div>
+    </div>
+    <div data-id=3D"135" class=3D"px-4 pb-4">
+      <div data-id=3D"136" class=3D"flex items-center gap-3 p-2.5 rounded-l=
+g" style=3D"background:rgba(255,255,255,.04);">
+        <div data-id=3D"137" class=3D"w-8 h-8 rounded-full bg-linkedin-ligh=
+t flex items-center justify-center text-white text-xs font-bold flex-shrink=
+-0">SC</div>
+        <div data-id=3D"138">
+          <div data-id=3D"139" class=3D"text-white text-xs font-medium">Ste=
+phen Caruana</div>
+          <div data-id=3D"140" class=3D"text-blue-400 text-[10px] opacity-6=
+0">Administrator</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <div data-id=3D"141" class=3D"main-area" id=3D"main-area-el">
+    <!-- Top Bar -->
+    <header data-id=3D"142" class=3D"bg-white border-b border-gray-200 px-6=
+ py-3 flex items-center justify-between sticky top-0 z-30" style=3D"box-sha=
+dow:0 1px 3px rgba(0,0,0,.04);min-height:56px;">
+      <div data-id=3D"143" class=3D"flex items-center gap-3">
+        <h1 data-id=3D"144" class=3D"text-base font-semibold text-gray-800"=
+ id=3D"page-title-el">New Request</h1>
+      </div>
+      <div data-id=3D"145" class=3D"flex items-center gap-3">
+        <button data-id=3D"146" id=3D"topbar-new-el" class=3D"btn-primary t=
+ext-sm py-2 px-4">
+          <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"=
+24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-widt=
+h=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"p=
+lus" aria-hidden=3D"true" data-id=3D"147" class=3D"lucide lucide-plus w-4 h=
+-4"><path d=3D"M5 12h14"></path><path d=3D"M12 5v14"></path></svg>
+          <span data-id=3D"148" class=3D"hidden sm:inline">New Request</spa=
+n>
+        </button>
+        <div data-id=3D"149" class=3D"w-9 h-9 rounded-full bg-linkedin flex=
+ items-center justify-center text-white text-xs font-bold cursor-pointer">S=
+C</div>
+      </div>
+    </header>
+
+    <!-- =3D=3D=3D=3D=3D VIEW 1: New Request =3D=3D=3D=3D=3D -->
+    <div data-id=3D"150" class=3D"view-panel active" id=3D"view-new-request=
+">
+      <div data-id=3D"151" class=3D"p-4 md:p-6">
+        <div data-id=3D"152" class=3D"flex flex-col lg:flex-row gap-6">
+          <div data-id=3D"153" class=3D"flex-1 lg:max-w-[60%] min-w-0">
+            <!-- Run Configuration -->
+            <div data-id=3D"154" class=3D"card p-5 md:p-6 mb-5">
+              <h2 data-id=3D"155" class=3D"text-xs font-semibold text-gray-=
+800 uppercase tracking-wider mb-5 flex items-center gap-2">
+                <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" heig=
+ht=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" strok=
+e-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucid=
+e=3D"settings-2" aria-hidden=3D"true" data-id=3D"156" class=3D"lucide lucid=
+e-settings-2 w-4 h-4 text-linkedin"><path d=3D"M14 17H5"></path><path d=3D"=
+M19 7h-9"></path><circle cx=3D"17" cy=3D"17" r=3D"3"></circle><circle cx=3D=
+"7" cy=3D"7" r=3D"3"></circle></svg> Run Configuration
+              </h2>
+              <div data-id=3D"157" class=3D"space-y-5">
+                <div data-id=3D"158">
+                  <label data-id=3D"159" class=3D"form-label">Run Type</lab=
+el>
+                  <div data-id=3D"160" class=3D"radio-group" id=3D"run-type=
+-grp">
+                    <div data-id=3D"161" class=3D"radio-btn selected" data-=
+value=3D"Scheduled">Scheduled</div>
+                    <div data-id=3D"162" class=3D"radio-btn" data-value=3D"=
+Manual">Manual (Immediate)</div>
+                  </div>
+                </div>
+                <div data-id=3D"163" id=3D"schedule-fields-el">
+                  <label data-id=3D"164" class=3D"form-label">Scheduled Dat=
+e &amp; Time</label>
+                  <input data-id=3D"165" type=3D"datetime-local" class=3D"f=
+orm-input" id=3D"scheduled-time-el" value=3D"2026-09-30T08:10">
+                </div>
+                <div data-id=3D"166">
+                  <label data-id=3D"167" class=3D"form-label">Approver Emai=
+l</label>
+                  <input data-id=3D"168" type=3D"email" class=3D"form-input=
+" id=3D"approver-email-el" placeholder=3D"marketing.manager@company.com">
+                </div>
+                <div data-id=3D"169">
+                  <label data-id=3D"170" class=3D"form-label">Approval Wind=
+ow</label>
+                  <select data-id=3D"171" class=3D"form-select" id=3D"appro=
+val-window-el">
+                    <option data-id=3D"172" value=3D"24">24 hours</option>
+                    <option data-id=3D"173" value=3D"48" selected=3D"">48 h=
+ours</option>
+                    <option data-id=3D"174" value=3D"72">72 hours</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Focus -->
+            <div data-id=3D"175" class=3D"card p-5 md:p-6 mb-5">
+              <h2 data-id=3D"176" class=3D"text-xs font-semibold text-gray-=
+800 uppercase tracking-wider mb-5 flex items-center gap-2">
+                <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" heig=
+ht=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" strok=
+e-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucid=
+e=3D"target" aria-hidden=3D"true" data-id=3D"177" class=3D"lucide lucide-ta=
+rget w-4 h-4 text-linkedin"><circle cx=3D"12" cy=3D"12" r=3D"10"></circle><=
+circle cx=3D"12" cy=3D"12" r=3D"6"></circle><circle cx=3D"12" cy=3D"12" r=
+=3D"2"></circle></svg> Content Focus
+              </h2>
+              <div data-id=3D"178" class=3D"space-y-5">
+                <div data-id=3D"179"><label data-id=3D"180" class=3D"form-l=
+abel">Industry</label>
+                  <select data-id=3D"181" class=3D"form-select" id=3D"indus=
+try-el">
+                    <option data-id=3D"182" value=3D"">Select Industry=E2=
+=80=A6</option>
+                    <option data-id=3D"183" value=3D"Contingent Staffing">C=
+ontingent Staffing</option>
+                    <option data-id=3D"184" value=3D"Financial Services">Fi=
+nancial Services</option>
+                    <option data-id=3D"185" value=3D"Healthcare">Healthcare=
+</option>
+                    <option data-id=3D"186" value=3D"Legal">Legal</option>
+                    <option data-id=3D"187" value=3D"Manufacturing">Manufac=
+turing</option>
+                    <option data-id=3D"188" value=3D"Public Sector">Public =
+Sector</option>
+                    <option data-id=3D"189" value=3D"Retail and Consumer">R=
+etail and Consumer</option>
+                    <option data-id=3D"190" value=3D"Technology and AI">Tec=
+hnology and AI</option>
+                  </select>
+                </div>
+                <div data-id=3D"191"><label data-id=3D"192" class=3D"form-l=
+abel">Topic / Theme</label>
+                  <select data-id=3D"193" class=3D"form-select" id=3D"topic=
+-el" disabled=3D"">
+                    <option data-id=3D"194" value=3D"">Select an industry f=
+irst=E2=80=A6</option>
+                  </select>
+                  <div data-id=3D"195" class=3D"helper-text">Topics filtere=
+d by selected industry</div>
+                </div>
+                <div data-id=3D"196"><label data-id=3D"197" class=3D"form-l=
+abel">Industry Keywords</label>
+                  <div data-id=3D"198" class=3D"tag-container" id=3D"keywor=
+ds-ctn"><input data-id=3D"199" type=3D"text" class=3D"tag-input" id=3D"keyw=
+ords-inp" placeholder=3D"Type a keyword and press Enter"></div>
+                </div>
+                <div data-id=3D"200"><label data-id=3D"201" class=3D"form-l=
+abel">Target Audience</label>
+                  <select data-id=3D"202" class=3D"form-select" id=3D"targe=
+t-audience-el"><option data-id=3D"203" value=3D"">Select=E2=80=A6</option><=
+option data-id=3D"204" value=3D"Buyers / Client-Side Decision Makers">Buyer=
+s / Client-Side Decision Makers</option><option data-id=3D"205" value=3D"HR=
+ / Talent Leaders">HR / Talent Leaders</option><option data-id=3D"206" valu=
+e=3D"Suppliers / Staffing Partners">Suppliers / Staffing Partners</option><=
+option data-id=3D"207" value=3D"MSP Program Managers">MSP Program Managers<=
+/option><option data-id=3D"208" value=3D"C-Suite Executives">C-Suite Execut=
+ives</option><option data-id=3D"209" value=3D"Procurement Professionals">Pr=
+ocurement Professionals</option><option data-id=3D"210" value=3D"General Bu=
+siness Audience">General Business Audience</option></select>
+                </div>
+                <div data-id=3D"211"><label data-id=3D"212" class=3D"form-l=
+abel">Content Recency</label>
+                  <select data-id=3D"213" class=3D"form-select" id=3D"conte=
+nt-recency-el"><option data-id=3D"214" value=3D"">Select=E2=80=A6</option><=
+option data-id=3D"215" value=3D"7">7 days</option><option data-id=3D"216" v=
+alue=3D"14">14 days</option><option data-id=3D"217" value=3D"30">30 days</o=
+ption><option data-id=3D"218" value=3D"60">60 days</option><option data-id=
+=3D"219" value=3D"90">90 days</option></select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Post Preferences -->
+            <div data-id=3D"220" class=3D"card p-5 md:p-6 mb-5">
+              <h2 data-id=3D"221" class=3D"text-xs font-semibold text-gray-=
+800 uppercase tracking-wider mb-5 flex items-center gap-2">
+                <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" heig=
+ht=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" strok=
+e-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucid=
+e=3D"pen-line" aria-hidden=3D"true" data-id=3D"222" class=3D"lucide lucide-=
+pen-line w-4 h-4 text-linkedin"><path d=3D"M13 21h8"></path><path d=3D"M21.=
+174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.=
+5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path></svg> LinkedIn P=
+ost Preferences
+              </h2>
+              <div data-id=3D"223" class=3D"space-y-5">
+                <div data-id=3D"224"><label data-id=3D"225" class=3D"form-l=
+abel">Management Type</label>
+                  <select data-id=3D"226" class=3D"form-select" id=3D"mgmt-=
+type-el"><option data-id=3D"227" value=3D"">Select=E2=80=A6</option><option=
+ data-id=3D"228" value=3D"Tactical">Tactical</option><option data-id=3D"229=
+" value=3D"Strategic">Strategic</option><option data-id=3D"230" value=3D"Op=
+erational">Operational</option><option data-id=3D"231" value=3D"Educational=
+">Educational</option><option data-id=3D"232" value=3D"Executive">Executive=
+</option></select>
+                </div>
+                <div data-id=3D"233"><label data-id=3D"234" class=3D"form-l=
+abel">Mode</label>
+                  <select data-id=3D"235" class=3D"form-select" id=3D"mode-=
+el"><option data-id=3D"236" value=3D"">Select=E2=80=A6</option><option data=
+-id=3D"237" value=3D"Curation">Curation</option><option data-id=3D"238" val=
+ue=3D"Original Content">Original Content</option><option data-id=3D"239" va=
+lue=3D"Hybrid">Hybrid</option></select>
+                </div>
+                <div data-id=3D"240">
+                  <label data-id=3D"241" class=3D"form-label">Post Length: =
+<span data-id=3D"242" id=3D"word-ct-lbl" class=3D"text-linkedin font-bold" =
+style=3D"text-transform:none;">~200 words</span></label>
+                  <input data-id=3D"243" type=3D"range" class=3D"range-slid=
+er" id=3D"post-length-el" min=3D"100" max=3D"300" value=3D"200" step=3D"10"=
+>
+                  <div data-id=3D"244" class=3D"flex justify-between text-x=
+s text-gray-400 mt-1"><span data-id=3D"245">100</span><span data-id=3D"246"=
+>200</span><span data-id=3D"247">300</span></div>
+                </div>
+                <div data-id=3D"248"><label data-id=3D"249" class=3D"form-l=
+abel">Preferred Hashtags</label>
+                  <div data-id=3D"250" class=3D"tag-container" id=3D"hashta=
+gs-ctn"><input data-id=3D"251" type=3D"text" class=3D"tag-input" id=3D"hash=
+tags-inp" placeholder=3D"e.g. #FutureOfWork, #HRTech"></div>
+                </div>
+                <div data-id=3D"252"><label data-id=3D"253" class=3D"form-l=
+abel">Publisher / Account</label>
+                  <input data-id=3D"254" type=3D"text" class=3D"form-input"=
+ id=3D"publisher-el" placeholder=3D"e.g. Stephen Caruana | LinkedIn">
+                </div>
+                <div data-id=3D"255"><label data-id=3D"256" class=3D"form-l=
+abel">Special Instructions</label>
+                  <textarea data-id=3D"257" class=3D"form-input" id=3D"cust=
+om-instr-el" rows=3D"3" placeholder=3D"Optional: any specific angles, sourc=
+es to avoid, or messaging priorities for this run..." style=3D"resize:verti=
+cal;"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <button data-id=3D"258" id=3D"submit-btn-el" class=3D"btn-prima=
+ry w-full text-base py-3.5" style=3D"font-size:15px;">=F0=9F=9A=80 Submit t=
+o Agent</button>
+          </div>
+
+          <!-- JSON Preview -->
+          <div data-id=3D"259" class=3D"lg:w-[40%] lg:flex-shrink-0 min-w-0=
+">
+            <div data-id=3D"260" class=3D"card p-0 overflow-hidden lg:stick=
+y lg:top-[72px]">
+              <div data-id=3D"261" class=3D"flex items-center justify-betwe=
+en px-5 py-3 border-b border-gray-100">
+                <h3 data-id=3D"262" class=3D"text-xs font-semibold text-gra=
+y-700 uppercase tracking-wider flex items-center gap-2">
+                  <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" he=
+ight=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" str=
+oke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-luc=
+ide=3D"braces" aria-hidden=3D"true" data-id=3D"263" class=3D"lucide lucide-=
+braces w-4 h-4 text-linkedin"><path d=3D"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2=
+ 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"></path><path d=3D"M16 21h1a2 2 0 0 0 2-=
+2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"></path></svg> JSON Pay=
+load Preview
+                </h3>
+                <button data-id=3D"264" id=3D"json-copy-el" class=3D"p-1.5 =
+rounded-lg hover:bg-gray-100 text-gray-400 cursor-pointer" title=3D"Copy JS=
+ON"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" vi=
+ewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2=
+" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"copy" a=
+ria-hidden=3D"true" data-id=3D"265" class=3D"lucide lucide-copy w-4 h-4"><r=
+ect width=3D"14" height=3D"14" x=3D"8" y=3D"8" rx=3D"2" ry=3D"2"></rect><pa=
+th d=3D"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></s=
+vg></button>
+              </div>
+              <pre data-id=3D"266" id=3D"json-preview-el" class=3D"json-pre=
+view" style=3D"border-radius:0;margin:0;max-height:calc(100vh - 160px);">{
+  <span class=3D"json-key">"mode":</span> <span class=3D"json-string">"Cura=
+tion"</span>,
+  <span class=3D"json-key">"requestId":</span> <span class=3D"json-string">=
+"RUN-466920"</span>,
+  <span class=3D"json-key">"runDate":</span> <span class=3D"json-string">"2=
+026-09-26T21:54:42.708Z"</span>,
+  <span class=3D"json-key">"runType":</span> <span class=3D"json-string">"S=
+cheduled"</span>,
+  <span class=3D"json-key">"submittedBy":</span> <span class=3D"json-string=
+">"Stephen Caruana"</span>,
+  <span class=3D"json-key">"approverEmails":</span> [
+    <span class=3D"json-string">"scaruana33@gmail.com"</span>,
+    <span class=3D"json-string">"admin@nomorereportsontherun.com"</span>,
+    <span class=3D"json-string">"rharrington758@gmail.com"</span>
+  ],
+  <span class=3D"json-key">"approvalWindowHours":</span> <span class=3D"jso=
+n-number">48</span>,
+  <span class=3D"json-key">"primaryIndustry":</span> <span class=3D"json-st=
+ring">""</span>,
+  <span class=3D"json-key">"audience":</span> [],
+  <span class=3D"json-key">"contentFocus":</span> {
+    <span class=3D"json-key">"topics":</span> <span class=3D"json-string">"=
+"</span>,
+    <span class=3D"json-key">"industryKeywords":</span> [],
+    <span class=3D"json-key">"contentRecencyDays":</span> <span class=3D"js=
+on-number">30</span>,
+    <span class=3D"json-key">"managementType":</span> <span class=3D"json-s=
+tring">""</span>,
+    <span class=3D"json-key">"mode":</span> <span class=3D"json-string">""<=
+/span>
+  },
+  <span class=3D"json-key">"postPreferences":</span> {
+    <span class=3D"json-key">"voiceProfile":</span> <span class=3D"json-str=
+ing">"Stephen Caruana =E2=80=94 Executive, Strategic, Thought Leadership, D=
+irect, NYC Confident, Non-Promotional"</span>,
+    <span class=3D"json-key">"targetWordCount":</span> <span class=3D"json-=
+number">200</span>,
+    <span class=3D"json-key">"hashtags":</span> [],
+    <span class=3D"json-key">"specialInstructions":</span> <span class=3D"j=
+son-string">""</span>,
+    <span class=3D"json-key">"publisher":</span> <span class=3D"json-string=
+">""</span>
+  },
+  <span class=3D"json-key">"agentInstructions":</span> {
+    <span class=3D"json-key">"role":</span> <span class=3D"json-string">"Ne=
+ws Curator =E2=80=94 LinkedIn Thought Leadership"</span>,
+    <span class=3D"json-key">"articlesToCurate":</span> {
+      <span class=3D"json-key">"min":</span> <span class=3D"json-number">1<=
+/span>,
+      <span class=3D"json-key">"max":</span> <span class=3D"json-number">3<=
+/span>
+    },
+    <span class=3D"json-key">"recencyRule":</span> <span class=3D"json-stri=
+ng">"Current month OR prior month only"</span>,
+    <span class=3D"json-key">"validateCount":</span> <span class=3D"json-bo=
+ol">true</span>,
+    <span class=3D"json-key">"noFabrication":</span> <span class=3D"json-bo=
+ol">true</span>,
+    <span class=3D"json-key">"requiredFields":</span> [
+      <span class=3D"json-string">"title"</span>,
+      <span class=3D"json-string">"source"</span>,
+      <span class=3D"json-string">"publishedDate"</span>,
+      <span class=3D"json-string">"summary"</span>,
+      <span class=3D"json-string">"url"</span>
+    ],
+    <span class=3D"json-key">"failureAction":</span> <span class=3D"json-st=
+ring">"send_alert_and_terminate"</span>
+  },
+  <span class=3D"json-key">"approvalGate1":</span> {
+    <span class=3D"json-key">"emailSubject":</span> <span class=3D"json-str=
+ing">"Contingent Workforce Article Options for Review"</span>,
+    <span class=3D"json-key">"recipients":</span> [
+      <span class=3D"json-string">"scaruana33@gmail.com"</span>,
+      <span class=3D"json-string">"admin@nomorereportsontherun.com"</span>,
+      <span class=3D"json-string">"rharrington758@gmail.com"</span>
+    ],
+    <span class=3D"json-key">"actions":</span> [
+      <span class=3D"json-string">"approve_article_1"</span>,
+      <span class=3D"json-string">"approve_article_2"</span>,
+      <span class=3D"json-string">"approve_article_3"</span>,
+      <span class=3D"json-string">"send_back_with_comments"</span>,
+      <span class=3D"json-string">"reject"</span>
+    ]
+  },
+  <span class=3D"json-key">"approvalGate2":</span> {
+    <span class=3D"json-key">"emailSubject":</span> <span class=3D"json-str=
+ing">"LinkedIn Post Draft for Approval"</span>,
+    <span class=3D"json-key">"recipients":</span> [
+      <span class=3D"json-string">"scaruana33@gmail.com"</span>,
+      <span class=3D"json-string">"admin@nomorereportsontherun.com"</span>,
+      <span class=3D"json-string">"rharrington758@gmail.com"</span>
+    ],
+    <span class=3D"json-key">"actions":</span> [
+      <span class=3D"json-string">"approve_publish"</span>,
+      <span class=3D"json-string">"request_edits"</span>,
+      <span class=3D"json-string">"reject"</span>
+    ]
+  },
+  <span class=3D"json-key">"footer":</span> {
+    <span class=3D"json-key">"disclaimer":</span> <span class=3D"json-strin=
+g">"Disclaimer - Created with generative AI and human-reviewed. For informa=
+tional purposes only. Views are my own and do not represent any current or =
+former employer or client. Please verify independently before acting."</spa=
+n>,
+    <span class=3D"json-key">"forwardLookingStatement":</span> <span class=
+=3D"json-string">"Forward-Looking Statement: This content may include forwa=
+rd-looking perspectives on the contingent workforce, staffing, MSP and VMS =
+ecosystems, and workforce technology. Such views reflect current assumption=
+s as of the publication date and are subject to change. Actual outcomes may=
+ differ materially."</span>
+  },
+  <span class=3D"json-key">"scheduledTime":</span> <span class=3D"json-stri=
+ng">"2026-09-30T12:10:00.000Z"</span>,
+  <span class=3D"json-key">"status":</span> <span class=3D"json-string">"pe=
+nding"</span>
+}</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =3D=3D=3D=3D=3D VIEW 2: Workflow Status =3D=3D=3D=3D=3D -->
+    <div data-id=3D"267" class=3D"view-panel" id=3D"view-workflow-status">
+      <div data-id=3D"268" class=3D"p-4 md:p-6">
+        <div data-id=3D"269" id=3D"wf-empty-el" class=3D"card p-12 text-cen=
+ter">
+          <div data-id=3D"270" class=3D"w-16 h-16 rounded-full bg-surface-5=
+0 flex items-center justify-center mx-auto mb-4"><svg xmlns=3D"http://www.w=
+3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"no=
+ne" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" str=
+oke-linejoin=3D"round" data-lucide=3D"inbox" aria-hidden=3D"true" data-id=
+=3D"271" class=3D"lucide lucide-inbox w-8 h-8 text-gray-300"><polyline poin=
+ts=3D"22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d=3D"M5.45 5.11 2=
+ 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2=
+ 2 0 0 0-1.79 1.11z"></path></svg></div>
+          <h3 data-id=3D"272" class=3D"text-lg font-semibold text-gray-700 =
+mb-2">No active runs</h3>
+          <p data-id=3D"273" class=3D"text-sm text-gray-500 mb-5">Submit a =
+new curation request to get started.</p>
+          <button data-id=3D"274" id=3D"empty-start-el" class=3D"btn-primar=
+y text-sm py-2.5 px-5"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"2=
+4" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor=
+" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" dat=
+a-lucide=3D"plus" aria-hidden=3D"true" data-id=3D"275" class=3D"lucide luci=
+de-plus w-4 h-4"><path d=3D"M5 12h14"></path><path d=3D"M12 5v14"></path></=
+svg> Start New Request</button>
+        </div>
+
+        <div data-id=3D"276" id=3D"wf-active-el" class=3D"hidden">
+          <!-- Simulate Failure Button -->
+          <div data-id=3D"277" class=3D"flex justify-end mb-3">
+            <button data-id=3D"278" id=3D"sim-fail-el" class=3D"px-3 py-1.5=
+ rounded-lg border border-gray-300 text-xs font-medium text-gray-500 hover:=
+bg-gray-100 cursor-pointer bg-white">=E2=9A=A0=EF=B8=8F Simulate Failure</b=
+utton>
+          </div>
+
+          <!-- Run Info Bar -->
+          <div data-id=3D"279" class=3D"card px-5 py-3 mb-4 flex flex-wrap =
+items-center gap-x-5 gap-y-2 text-sm">
+            <span data-id=3D"280" class=3D"font-semibold text-gray-800" id=
+=3D"wf-rid">Run ID: =E2=80=94</span>
+            <span data-id=3D"281" class=3D"text-gray-300">|</span>
+            <span data-id=3D"282" class=3D"text-gray-600" id=3D"wf-rtype">T=
+ype: =E2=80=94</span>
+            <span data-id=3D"283" class=3D"text-gray-300">|</span>
+            <span data-id=3D"284" class=3D"text-gray-600" id=3D"wf-submitte=
+d">Submitted: =E2=80=94</span>
+            <span data-id=3D"285" class=3D"text-gray-300">|</span>
+            <span data-id=3D"286" class=3D"text-gray-600" id=3D"wf-approver=
+">Approver: =E2=80=94</span>
+          </div>
+
+          <!-- Failure Banner -->
+          <div data-id=3D"287" id=3D"fail-banner-el" class=3D"hidden mb-4 p=
+-4 rounded-lg border-2 border-red-400 bg-red-50 text-sm text-red-800">
+            <div data-id=3D"288" class=3D"flex items-start gap-3">
+              <span data-id=3D"289" class=3D"text-xl">=F0=9F=9A=A8</span>
+              <div data-id=3D"290" class=3D"flex-1">
+                <div data-id=3D"291" class=3D"font-bold mb-1">Workflow Fail=
+ed</div>
+                <div data-id=3D"292" id=3D"fail-msg-el">No valid articles f=
+ound matching recency rules.</div>
+                <div data-id=3D"293" class=3D"text-xs mt-2 text-red-600">Al=
+ert sent to scaruana33@gmail.com =C2=B7 admin@nomorereportsontherun.com =C2=
+=B7 rharrington758@gmail.com. Run logged as =E2=9D=8C Failed.</div>
+                <button data-id=3D"294" id=3D"restart-run-el" class=3D"mt-3=
+ px-4 py-2 rounded-lg bg-red-600 text-white text-sm font-semibold cursor-po=
+inter border-none hover:bg-red-700">=F0=9F=94=84 Restart Run</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notification Bar -->
+          <div data-id=3D"295" id=3D"notif-bar-el" class=3D"notif-bar hidde=
+n">
+            <span data-id=3D"296">=F0=9F=93=A7</span>
+            <div data-id=3D"297" class=3D"flex-1">
+              <div data-id=3D"298" id=3D"notif-text-el">Notifications sent<=
+/div>
+              <div data-id=3D"299" class=3D"notif-detail" id=3D"notif-detai=
+l-el"></div>
+            </div>
+            <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=
+=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-=
+width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=
+=3D"chevron-down" aria-hidden=3D"true" data-id=3D"300" class=3D"lucide luci=
+de-chevron-down w-4 h-4 flex-shrink-0"><path d=3D"m6 9 6 6 6-6"></path></sv=
+g>
+          </div>
+
+          <!-- Stepper -->
+          <div data-id=3D"301" class=3D"card p-5 md:p-8 mb-5 overflow-x-aut=
+o">
+            <div data-id=3D"302" class=3D"stepper" id=3D"stepper-el" style=
+=3D"min-width:500px;">
+              <div data-id=3D"303" class=3D"step-item">
+                <div data-id=3D"304" class=3D"step-circle pending" id=3D"s1=
+-circle">=E2=9A=A1</div>
+                <div data-id=3D"305" class=3D"mt-3 text-center"><div data-i=
+d=3D"306" class=3D"text-sm font-semibold text-gray-800">Trigger</div><div d=
+ata-id=3D"307" class=3D"text-xs text-gray-500 mt-1">Scheduled / Manual</div=
+><div data-id=3D"308" class=3D"mt-2" id=3D"s1-badge"><span class=3D"status-=
+badge badge-pending">Pending</span></div></div>
+                <div data-id=3D"309" class=3D"step-line" id=3D"ln-12"></div=
+>
+              </div>
+              <div data-id=3D"310" class=3D"step-item">
+                <div data-id=3D"311" class=3D"step-circle pending" id=3D"s2=
+-circle">=F0=9F=A4=96</div>
+                <div data-id=3D"312" class=3D"mt-3 text-center"><div data-i=
+d=3D"313" class=3D"text-sm font-semibold text-gray-800">Curate Articles</di=
+v><div data-id=3D"314" class=3D"text-xs text-gray-500 mt-1">Copilot Agent s=
+ourcing 3 articles</div><div data-id=3D"315" class=3D"mt-2" id=3D"s2-badge"=
+><span class=3D"status-badge badge-pending">Pending</span></div></div>
+                <div data-id=3D"316" class=3D"step-line" id=3D"ln-23" style=
+=3D"position:relative;"><span data-id=3D"317" class=3D"step-gate-marker ste=
+p-gate-amber" id=3D"g1-marker">=F0=9F=94=8D Gate 1</span></div>
+              </div>
+              <div data-id=3D"318" class=3D"step-item">
+                <div data-id=3D"319" class=3D"step-circle pending" id=3D"s3=
+-circle">=E2=9C=85</div>
+                <div data-id=3D"320" class=3D"mt-3 text-center"><div data-i=
+d=3D"321" class=3D"text-sm font-semibold text-gray-800">Validate</div><div =
+data-id=3D"322" class=3D"text-xs text-gray-500 mt-1">Count check + quality =
+gate</div><div data-id=3D"323" class=3D"mt-2" id=3D"s3-badge"><span class=
+=3D"status-badge badge-pending">Pending</span></div></div>
+                <div data-id=3D"324" class=3D"step-line" id=3D"ln-34" style=
+=3D"position:relative;"><span data-id=3D"325" class=3D"step-gate-marker ste=
+p-gate-amber" id=3D"g2-marker">=F0=9F=93=A2 Gate 2</span></div>
+              </div>
+              <div data-id=3D"326" class=3D"step-item">
+                <div data-id=3D"327" class=3D"step-circle pending" id=3D"s4=
+-circle">=F0=9F=93=A2</div>
+                <div data-id=3D"328" class=3D"mt-3 text-center"><div data-i=
+d=3D"329" class=3D"text-sm font-semibold text-gray-800">Approve &amp; Publi=
+sh</div><div data-id=3D"330" class=3D"text-xs text-gray-500 mt-1" id=3D"s4-=
+sublabel">Marketing Manager, 48h gate</div><div data-id=3D"331" class=3D"mt=
+-2" id=3D"s4-badge"><span class=3D"status-badge badge-pending">Pending</spa=
+n></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curated Articles -->
+          <div data-id=3D"332" id=3D"curated-arts-el" class=3D"hidden mb-5"=
+>
+            <h3 data-id=3D"333" class=3D"text-xs font-semibold text-gray-70=
+0 uppercase tracking-wider mb-3 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"newspaper" aria-hidden=3D"tru=
+e" data-id=3D"334" class=3D"lucide lucide-newspaper w-4 h-4 text-linkedin">=
+<path d=3D"M15 18h-5"></path><path d=3D"M18 14h-8"></path><path d=3D"M4 22h=
+16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 =
+0 1 2-2h2"></path><rect width=3D"8" height=3D"4" x=3D"10" y=3D"6" rx=3D"1">=
+</rect></svg> Curated Articles</h3>
+            <div data-id=3D"335" class=3D"grid grid-cols-1 md:grid-cols-3 g=
+ap-4" id=3D"arts-grid-el"></div>
+          </div>
+
+          <!-- Gate 1 -->
+          <div data-id=3D"336" id=3D"g1-section-el" class=3D"hidden">
+            <div data-id=3D"337" id=3D"g1-active-el" class=3D"gate-section =
+gate-amber">
+              <div data-id=3D"338" class=3D"flex flex-wrap items-center jus=
+tify-between gap-3 mb-4">
+                <h3 data-id=3D"339" class=3D"text-sm font-bold text-gray-80=
+0 flex items-center gap-2">=F0=9F=94=8D Approval Gate 1 of 2 =E2=80=94 Sele=
+ct Article for Post</h3>
+                <span data-id=3D"340" class=3D"status-badge" id=3D"g1-badge=
+-el" style=3D"background:#fef3c7;color:#92400e;">=E2=8F=B3 Awaiting Selecti=
+on</span>
+              </div>
+              <p data-id=3D"341" class=3D"text-sm text-gray-600 mb-5 leadin=
+g-relaxed">Review the 3 curated articles above. Select the article you want=
+ the agent to use as the primary source for the LinkedIn post draft.</p>
+              <div data-id=3D"342" class=3D"space-y-3 mb-5" id=3D"g1-radios=
+-el"></div>
+              <div data-id=3D"343" class=3D"flex flex-wrap gap-3 justify-en=
+d">
+                <button data-id=3D"344" id=3D"g1-skip-el" class=3D"px-5 py-=
+2.5 rounded-lg border-2 border-gray-300 text-gray-600 font-semibold text-sm=
+ hover:bg-gray-50 cursor-pointer bg-transparent">=E2=8F=AD=EF=B8=8F Skip =
+=E2=80=94 Auto-Select</button>
+                <button data-id=3D"345" id=3D"g1-confirm-el" class=3D"btn-p=
+rimary text-sm py-2.5 px-5">=E2=9C=85 Confirm Selection &amp; Generate Post=
+</button>
+              </div>
+            </div>
+            <div data-id=3D"346" id=3D"g1-summary-el" class=3D"hidden gate-=
+summary-bar"><span data-id=3D"347">=E2=9C=85</span><span data-id=3D"348" id=
+=3D"g1-summary-txt">Gate 1 Complete</span></div>
+          </div>
+
+          <!-- Draft Post -->
+          <div data-id=3D"349" id=3D"draft-section-el" class=3D"hidden">
+            <h3 data-id=3D"350" class=3D"text-xs font-semibold text-gray-70=
+0 uppercase tracking-wider mb-3 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"file-text" aria-hidden=3D"tru=
+e" data-id=3D"351" class=3D"lucide lucide-file-text w-4 h-4 text-linkedin">=
+<path d=3D"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.=
+588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d=3D"M14 2v5a1=
+ 1 0 0 0 1 1h5"></path><path d=3D"M10 9H8"></path><path d=3D"M16 13H8"></pa=
+th><path d=3D"M16 17H8"></path></svg> Draft LinkedIn Post</h3>
+            <div data-id=3D"352" class=3D"flex items-center gap-3 mb-3">
+              <button data-id=3D"353" id=3D"edit-draft-el" class=3D"px-4 py=
+-2 rounded-lg border border-gray-300 text-sm font-semibold text-gray-600 ho=
+ver:bg-gray-50 cursor-pointer bg-white flex items-center gap-2"><svg xmlns=
+=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 2=
+4 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linec=
+ap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"pencil" aria-hidden=
+=3D"true" data-id=3D"354" class=3D"lucide lucide-pencil w-4 h-4"><path d=3D=
+"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.=
+352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path><path d=3D"m=
+15 5 4 4"></path></svg> Edit Draft</button>
+              <span data-id=3D"355" id=3D"draft-wc-el" class=3D"text-xs tex=
+t-gray-400 hidden"></span>
+            </div>
+            <div data-id=3D"356" class=3D"linkedin-post-card max-w-lg">
+              <div data-id=3D"357" class=3D"p-4">
+                <div data-id=3D"358" class=3D"flex items-center gap-3 mb-3"=
+>
+                  <div data-id=3D"359" class=3D"w-12 h-12 rounded-full bg-l=
+inkedin flex items-center justify-center text-white font-bold text-sm">SC</=
+div>
+                  <div data-id=3D"360"><div data-id=3D"361" class=3D"text-s=
+m font-semibold text-gray-900">Stephen Caruana</div><div data-id=3D"362" cl=
+ass=3D"text-xs text-gray-500">1st =E2=80=A2 LinkedIn Member</div><div data-=
+id=3D"363" class=3D"text-xs text-gray-400">Just now =E2=80=A2 =F0=9F=8C=90<=
+/div></div>
+                </div>
+                <div data-id=3D"364" class=3D"text-sm text-gray-800 leading=
+-relaxed" id=3D"draft-text-el" style=3D"white-space:pre-wrap;"></div>
+                <div data-id=3D"365" class=3D"mt-3" id=3D"draft-ht-el"></di=
+v>
+              </div>
+              <div data-id=3D"366" class=3D"linkedin-actions"><button data-=
+id=3D"367">=F0=9F=91=8D Like</button><button data-id=3D"368">=F0=9F=92=AC C=
+omment</button><button data-id=3D"369">=F0=9F=94=81 Repost</button><button =
+data-id=3D"370">=E2=9C=89=EF=B8=8F Send</button></div>
+            </div>
+          </div>
+
+          <!-- Gate 2 -->
+          <div data-id=3D"371" id=3D"g2-section-el" class=3D"hidden mt-5">
+            <div data-id=3D"372" id=3D"g2-active-el" class=3D"gate-section =
+gate-blue">
+              <div data-id=3D"373" class=3D"flex flex-wrap items-center jus=
+tify-between gap-3 mb-4">
+                <h3 data-id=3D"374" class=3D"text-sm font-bold text-gray-80=
+0 flex items-center gap-2">=F0=9F=93=A2 Approval Gate 2 of 2 =E2=80=94 Appr=
+ove to Publish</h3>
+                <span data-id=3D"375" class=3D"status-badge" id=3D"g2-badge=
+-el" style=3D"background:#dbeafe;color:#1e40af;">=E2=8F=B3 Awaiting Approva=
+l</span>
+              </div>
+              <div data-id=3D"376" class=3D"flex items-center gap-3 mb-4 p-=
+3 bg-white rounded-lg border border-blue-100">
+                <span data-id=3D"377" class=3D"text-sm text-gray-600">=E2=
+=8F=B1 Approval window:</span>
+                <span data-id=3D"378" class=3D"countdown-timer" id=3D"count=
+down-el">47:59:59</span>
+                <span data-id=3D"379" class=3D"text-sm text-gray-500">remai=
+ning</span>
+              </div>
+              <div data-id=3D"380" class=3D"flex flex-wrap gap-x-5 gap-y-1 =
+text-sm text-gray-600 mb-5 p-3 bg-white rounded-lg border border-blue-100">
+                <span data-id=3D"381">=F0=9F=91=A4 Approver: <strong data-i=
+d=3D"382" id=3D"g2-appr-name">Marketing Manager</strong></span>
+                <span data-id=3D"383">=F0=9F=93=A7 <span data-id=3D"384" id=
+=3D"g2-appr-email">marketing.manager@company.com</span></span>
+                <span data-id=3D"385">=F0=9F=95=90 Submitted: <span data-id=
+=3D"386" id=3D"g2-submit-time" class=3D"tabular-nums"></span></span>
+              </div>
+              <div data-id=3D"387" class=3D"disclaimer-checkbox-row mb-5">
+                <input data-id=3D"388" type=3D"checkbox" id=3D"disclaimer-c=
+b">
+                <label data-id=3D"389" for=3D"disclaimer-cb" class=3D"text-=
+sm text-gray-700 cursor-pointer leading-relaxed"><strong data-id=3D"390">I =
+confirm</strong> I have reviewed the AI-generated draft, verified the artic=
+le sources and links, and approve this content for publishing.</label>
+              </div>
+              <div data-id=3D"391" class=3D"space-y-3">
+                <button data-id=3D"392" id=3D"g2-approve-el" class=3D"btn-a=
+pprove-large" style=3D"background:#057642;color:#fff;" disabled=3D"">=E2=9C=
+=85 Approve &amp; Publish to LinkedIn</button>
+                <button data-id=3D"393" id=3D"g2-reject-el" class=3D"btn-ap=
+prove-large" style=3D"background:transparent;color:#cc1016;border:2px solid=
+ #cc1016;">=E2=9D=8C Reject &amp; Cancel Run</button>
+              </div>
+            </div>
+            <div data-id=3D"394" id=3D"g2-summary-el" class=3D"hidden gate-=
+summary-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =3D=3D=3D=3D=3D VIEW 3: Run History =3D=3D=3D=3D=3D -->
+    <div data-id=3D"395" class=3D"view-panel" id=3D"view-run-history">
+      <div data-id=3D"396" class=3D"p-4 md:p-6">
+        <div data-id=3D"397" class=3D"flex flex-col sm:flex-row items-start=
+ sm:items-center justify-between gap-3 mb-5">
+          <h2 data-id=3D"398" class=3D"text-lg font-semibold text-gray-800"=
+>Run History</h2>
+          <div data-id=3D"399" class=3D"flex gap-3 w-full sm:w-auto">
+            <div data-id=3D"400" class=3D"relative flex-1 sm:flex-initial">=
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBo=
+x=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" st=
+roke-linecap=3D"round" stroke-linejoin=3D"round" data-lucide=3D"search" ari=
+a-hidden=3D"true" data-id=3D"401" class=3D"lucide lucide-search w-4 h-4 abs=
+olute left-3 top-1/2 -translate-y-1/2 text-gray-400"><path d=3D"m21 21-4.34=
+-4.34"></path><circle cx=3D"11" cy=3D"11" r=3D"8"></circle></svg><input dat=
+a-id=3D"402" type=3D"text" class=3D"form-input pl-9 text-sm" id=3D"hist-sea=
+rch-el" placeholder=3D"Search runs..." style=3D"min-width:180px;"></div>
+            <select data-id=3D"403" class=3D"form-select text-sm" id=3D"his=
+t-filter-el" style=3D"width:auto;min-width:120px;"><option data-id=3D"404" =
+value=3D"All">All</option><option data-id=3D"405" value=3D"Scheduled">Sched=
+uled</option><option data-id=3D"406" value=3D"Manual">Manual</option><optio=
+n data-id=3D"407" value=3D"Published">Published</option><option data-id=3D"=
+408" value=3D"Rejected">Rejected</option><option data-id=3D"409" value=3D"P=
+ending">Pending</option></select>
+          </div>
+        </div>
+        <div data-id=3D"410" class=3D"card overflow-hidden">
+          <div data-id=3D"411" class=3D"overflow-x-auto">
+            <table data-id=3D"412" class=3D"w-full text-left text-sm">
+              <thead data-id=3D"413"><tr data-id=3D"414" class=3D"border-b =
+border-gray-100" style=3D"background:#f8fafc;">
+                <th data-id=3D"415" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Run ID</th>
+                <th data-id=3D"416" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Type</th>
+                <th data-id=3D"417" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Topic</th>
+                <th data-id=3D"418" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Source</th>
+                <th data-id=3D"419" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Submitted</th>
+                <th data-id=3D"420" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Approver</th>
+                <th data-id=3D"421" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Status</th>
+                <th data-id=3D"422" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Actions</th>
+              </tr></thead>
+              <tbody data-id=3D"423" id=3D"hist-tbody-el"><tr class=3D"tabl=
+e-row border-b border-gray-50" style=3D"cursor: pointer;"><td class=3D"px-4=
+ py-3 font-mono text-xs font-semibold text-linkedin">RUN-001842</td><td cla=
+ss=3D"px-4 py-3 text-sm text-gray-600">Scheduled</td><td class=3D"px-4 py-3=
+ text-sm text-gray-800 font-medium" style=3D"max-width:180px;overflow:hidde=
+n;text-overflow:ellipsis;white-space:nowrap;">Contingent Staffing | Complia=
+nce &amp; Risk</td><td class=3D"px-4 py-3"><a href=3D"https://hbr.org/topic=
+/subject/talent-management" target=3D"_blank" class=3D"source-domain-pill h=
+over:bg-blue-50 hover:text-linkedin transition-colors" style=3D"text-decora=
+tion:none;">hbr.org</a></td><td class=3D"px-4 py-3 text-sm text-gray-500 ta=
+bular-nums">Sep 17, 2026</td><td class=3D"px-4 py-3 text-sm text-gray-500" =
+style=3D"max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space=
+:nowrap;">M. Thompson</td><td class=3D"px-4 py-3"><span class=3D"status-bad=
+ge badge-complete">=E2=9C=85 Published</span></td><td class=3D"px-4 py-3"><=
+button class=3D"text-sm font-semibold text-linkedin hover:underline cursor-=
+pointer bg-transparent border-none view-run-btn" data-run-id=3D"RUN-001842"=
+>View</button></td></tr><tr class=3D"table-row border-b border-gray-50" sty=
+le=3D"cursor: pointer;"><td class=3D"px-4 py-3 font-mono text-xs font-semib=
+old text-linkedin">RUN-001791</td><td class=3D"px-4 py-3 text-sm text-gray-=
+600">Manual</td><td class=3D"px-4 py-3 text-sm text-gray-800 font-medium" s=
+tyle=3D"max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:=
+nowrap;">Technology and AI | Generative AI</td><td class=3D"px-4 py-3"><a h=
+ref=3D"https://www.forbes.com/sites/forbeshumanresourcescouncil/" target=3D=
+"_blank" class=3D"source-domain-pill hover:bg-blue-50 hover:text-linkedin t=
+ransition-colors" style=3D"text-decoration:none;">forbes.com</a></td><td cl=
+ass=3D"px-4 py-3 text-sm text-gray-500 tabular-nums">Sep 10, 2026</td><td c=
+lass=3D"px-4 py-3 text-sm text-gray-500" style=3D"max-width:160px;overflow:=
+hidden;text-overflow:ellipsis;white-space:nowrap;">M. Thompson</td><td clas=
+s=3D"px-4 py-3"><span class=3D"status-badge badge-complete">=E2=9C=85 Publi=
+shed</span></td><td class=3D"px-4 py-3"><button class=3D"text-sm font-semib=
+old text-linkedin hover:underline cursor-pointer bg-transparent border-none=
+ view-run-btn" data-run-id=3D"RUN-001791">View</button></td></tr><tr class=
+=3D"table-row border-b border-gray-50" style=3D"cursor: pointer;"><td class=
+=3D"px-4 py-3 font-mono text-xs font-semibold text-linkedin">RUN-001744</td=
+><td class=3D"px-4 py-3 text-sm text-gray-600">Scheduled</td><td class=3D"p=
+x-4 py-3 text-sm text-gray-800 font-medium" style=3D"max-width:180px;overfl=
+ow:hidden;text-overflow:ellipsis;white-space:nowrap;">Public Sector | Workf=
+orce Modernization</td><td class=3D"px-4 py-3"><a href=3D"https://www.shrm.=
+org/topics-tools/topics/workforce-planning" target=3D"_blank" class=3D"sour=
+ce-domain-pill hover:bg-blue-50 hover:text-linkedin transition-colors" styl=
+e=3D"text-decoration:none;">shrm.org</a></td><td class=3D"px-4 py-3 text-sm=
+ text-gray-500 tabular-nums">Sep 3, 2026</td><td class=3D"px-4 py-3 text-sm=
+ text-gray-500" style=3D"max-width:160px;overflow:hidden;text-overflow:elli=
+psis;white-space:nowrap;">M. Thompson</td><td class=3D"px-4 py-3"><span cla=
+ss=3D"status-badge badge-failed">=E2=9D=8C Rejected</span></td><td class=3D=
+"px-4 py-3"><button class=3D"text-sm font-semibold text-linkedin hover:unde=
+rline cursor-pointer bg-transparent border-none view-run-btn" data-run-id=
+=3D"RUN-001744">View</button></td></tr><tr class=3D"table-row border-b bord=
+er-gray-50" style=3D"cursor: pointer;"><td class=3D"px-4 py-3 font-mono tex=
+t-xs font-semibold text-linkedin">RUN-001698</td><td class=3D"px-4 py-3 tex=
+t-sm text-gray-600">Manual</td><td class=3D"px-4 py-3 text-sm text-gray-800=
+ font-medium" style=3D"max-width:180px;overflow:hidden;text-overflow:ellips=
+is;white-space:nowrap;">Contingent Staffing | Talent Supply Chain</td><td c=
+lass=3D"px-4 py-3"><a href=3D"https://www2.deloitte.com/us/en/insights.html=
+" target=3D"_blank" class=3D"source-domain-pill hover:bg-blue-50 hover:text=
+-linkedin transition-colors" style=3D"text-decoration:none;">deloitte.com</=
+a></td><td class=3D"px-4 py-3 text-sm text-gray-500 tabular-nums">Aug 27, 2=
+026</td><td class=3D"px-4 py-3 text-sm text-gray-500" style=3D"max-width:16=
+0px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">M. Thompson=
+</td><td class=3D"px-4 py-3"><span class=3D"status-badge badge-complete">=
+=E2=9C=85 Published</span></td><td class=3D"px-4 py-3"><button class=3D"tex=
+t-sm font-semibold text-linkedin hover:underline cursor-pointer bg-transpar=
+ent border-none view-run-btn" data-run-id=3D"RUN-001698">View</button></td>=
+</tr><tr class=3D"table-row border-b border-gray-50" style=3D"cursor: point=
+er;"><td class=3D"px-4 py-3 font-mono text-xs font-semibold text-linkedin">=
+RUN-001651</td><td class=3D"px-4 py-3 text-sm text-gray-600">Scheduled</td>=
+<td class=3D"px-4 py-3 text-sm text-gray-800 font-medium" style=3D"max-widt=
+h:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Healthc=
+are | Staffing Shortages</td><td class=3D"px-4 py-3"><a href=3D"https://www=
+.mckinsey.com/capabilities/people-and-organizational-performance" target=3D=
+"_blank" class=3D"source-domain-pill hover:bg-blue-50 hover:text-linkedin t=
+ransition-colors" style=3D"text-decoration:none;">mckinsey.com</a></td><td =
+class=3D"px-4 py-3 text-sm text-gray-500 tabular-nums">Aug 20, 2026</td><td=
+ class=3D"px-4 py-3 text-sm text-gray-500" style=3D"max-width:160px;overflo=
+w:hidden;text-overflow:ellipsis;white-space:nowrap;">M. Thompson</td><td cl=
+ass=3D"px-4 py-3"><span class=3D"status-badge badge-expired">=E2=8F=B3 Expi=
+red</span></td><td class=3D"px-4 py-3"><button class=3D"text-sm font-semibo=
+ld text-linkedin hover:underline cursor-pointer bg-transparent border-none =
+view-run-btn" data-run-id=3D"RUN-001651">View</button></td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =3D=3D=3D=3D=3D VIEW 4: Dashboard =3D=3D=3D=3D=3D -->
+    <div data-id=3D"424" class=3D"view-panel" id=3D"view-dashboard">
+      <div data-id=3D"425" class=3D"p-4 md:p-6">
+        <div data-id=3D"426" class=3D"flex items-center justify-between mb-=
+6">
+          <h2 data-id=3D"427" class=3D"text-lg font-semibold text-gray-800"=
+>=F0=9F=93=8A Program Dashboard</h2>
+          <span data-id=3D"428" class=3D"text-xs text-gray-400 italic">=E2=
+=9A=A1 Powered by Power BI</span>
+        </div>
+
+        <!-- KPI Cards -->
+        <div data-id=3D"429" class=3D"grid grid-cols-1 sm:grid-cols-2 lg:gr=
+id-cols-4 gap-4 mb-6">
+          <div data-id=3D"430" class=3D"kpi-card">
+            <div data-id=3D"431" class=3D"kpi-icon-box" style=3D"background=
+:#e6f3fa;">=F0=9F=93=AC</div>
+            <div data-id=3D"432"><div data-id=3D"433" class=3D"text-2xl fon=
+t-bold text-gray-900 tabular-nums">47</div><div data-id=3D"434" class=3D"te=
+xt-xs text-gray-500 uppercase tracking-wider font-medium">Total Runs</div><=
+div data-id=3D"435" class=3D"kpi-trend up mt-1">=E2=86=91 12% this month</d=
+iv></div>
+          </div>
+          <div data-id=3D"436" class=3D"kpi-card">
+            <div data-id=3D"437" class=3D"kpi-icon-box" style=3D"background=
+:#e6f4ed;">=E2=9C=85</div>
+            <div data-id=3D"438"><div data-id=3D"439" class=3D"text-2xl fon=
+t-bold text-gray-900 tabular-nums">38</div><div data-id=3D"440" class=3D"te=
+xt-xs text-gray-500 uppercase tracking-wider font-medium">Published Posts</=
+div><div data-id=3D"441" class=3D"kpi-trend up mt-1">=E2=86=91 8% this mont=
+h</div></div>
+          </div>
+          <div data-id=3D"442" class=3D"kpi-card">
+            <div data-id=3D"443" class=3D"kpi-icon-box" style=3D"background=
+:#dbeafe;">=E2=8F=B3</div>
+            <div data-id=3D"444"><div data-id=3D"445" class=3D"text-2xl fon=
+t-bold text-gray-900 tabular-nums">3</div><div data-id=3D"446" class=3D"tex=
+t-xs text-gray-500 uppercase tracking-wider font-medium">Pending Approval</=
+div><div data-id=3D"447" class=3D"kpi-trend flat mt-1">=E2=80=94 no change<=
+/div></div>
+          </div>
+          <div data-id=3D"448" class=3D"kpi-card">
+            <div data-id=3D"449" class=3D"kpi-icon-box" style=3D"background=
+:#fce8e8;">=E2=9D=8C</div>
+            <div data-id=3D"450"><div data-id=3D"451" class=3D"text-2xl fon=
+t-bold text-gray-900 tabular-nums">6.4%</div><div data-id=3D"452" class=3D"=
+text-xs text-gray-500 uppercase tracking-wider font-medium">Rejection Rate<=
+/div><div data-id=3D"453" class=3D"kpi-trend down mt-1">=E2=86=93 2.1% impr=
+ovement</div></div>
+          </div>
+        </div>
+
+        <!-- Charts -->
+        <div data-id=3D"454" class=3D"flex flex-col lg:flex-row gap-4 mb-6"=
+>
+          <div data-id=3D"455" class=3D"card p-5 flex-[3] min-w-0">
+            <h3 data-id=3D"456" class=3D"text-xs font-semibold text-gray-70=
+0 uppercase tracking-wider mb-4">Monthly Run Volume</h3>
+            <div data-id=3D"457" class=3D"relative h-64 md:h-72"><canvas da=
+ta-id=3D"458" id=3D"bar-chart-el"></canvas></div>
+          </div>
+          <div data-id=3D"459" class=3D"card p-5 flex-[2] min-w-0">
+            <h3 data-id=3D"460" class=3D"text-xs font-semibold text-gray-70=
+0 uppercase tracking-wider mb-4">Post Status Breakdown</h3>
+            <div data-id=3D"461" class=3D"relative h-52 md:h-56 flex items-=
+center justify-center"><canvas data-id=3D"462" id=3D"donut-chart-el"></canv=
+as></div>
+            <div data-id=3D"463" class=3D"flex flex-wrap gap-x-4 gap-y-2 mt=
+-4 justify-center text-xs">
+              <span data-id=3D"464" class=3D"flex items-center gap-1.5"><sp=
+an data-id=3D"465" class=3D"w-3 h-3 rounded-full inline-block" style=3D"bac=
+kground:#057642;"></span> Published 81%</span>
+              <span data-id=3D"466" class=3D"flex items-center gap-1.5"><sp=
+an data-id=3D"467" class=3D"w-3 h-3 rounded-full inline-block" style=3D"bac=
+kground:#cc1016;"></span> Rejected 6%</span>
+              <span data-id=3D"468" class=3D"flex items-center gap-1.5"><sp=
+an data-id=3D"469" class=3D"w-3 h-3 rounded-full inline-block" style=3D"bac=
+kground:#E7A33E;"></span> Expired 9%</span>
+              <span data-id=3D"470" class=3D"flex items-center gap-1.5"><sp=
+an data-id=3D"471" class=3D"w-3 h-3 rounded-full inline-block" style=3D"bac=
+kground:#0077B5;"></span> Pending 4%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Task Dashboard -->
+        <div data-id=3D"472" class=3D"card overflow-hidden">
+          <div data-id=3D"473" class=3D"px-5 py-4 border-b border-gray-100 =
+flex items-center justify-between">
+            <h3 data-id=3D"474" class=3D"text-xs font-semibold text-gray-70=
+0 uppercase tracking-wider flex items-center gap-2">=F0=9F=93=8B Active Tas=
+ks &amp; Approvals</h3>
+            <span data-id=3D"475" class=3D"text-[10px] text-gray-400 italic=
+">=E2=9A=A1 Powered by Power BI</span>
+          </div>
+          <div data-id=3D"476" class=3D"overflow-x-auto">
+            <table data-id=3D"477" class=3D"w-full text-left text-sm">
+              <thead data-id=3D"478"><tr data-id=3D"479" class=3D"border-b =
+border-gray-100" style=3D"background:#f8fafc;">
+                <th data-id=3D"480" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Task</th>
+                <th data-id=3D"481" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Type</th>
+                <th data-id=3D"482" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Run ID</th>
+                <th data-id=3D"483" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Due</th>
+                <th data-id=3D"484" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Status</th>
+                <th data-id=3D"485" class=3D"px-4 py-3 text-xs font-semibol=
+d text-gray-500 uppercase tracking-wider">Action</th>
+              </tr></thead>
+              <tbody data-id=3D"486" id=3D"tasks-tbody-el">
+                <tr data-id=3D"487" class=3D"table-row border-b border-gray=
+-50">
+                  <td data-id=3D"488" class=3D"px-4 py-3 text-sm text-gray-=
+800 font-medium">Review article options for Contingent Workforce</td>
+                  <td data-id=3D"489" class=3D"px-4 py-3 text-sm text-gray-=
+600">Gate 1</td>
+                  <td data-id=3D"490" class=3D"px-4 py-3 font-mono text-xs =
+text-linkedin font-semibold">RUN-001849</td>
+                  <td data-id=3D"491" class=3D"px-4 py-3 text-sm text-gray-=
+500 tabular-nums">Today 5:00 PM</td>
+                  <td data-id=3D"492" class=3D"px-4 py-3"><span data-id=3D"=
+493" class=3D"status-badge badge-failed">=F0=9F=94=B4 Overdue</span></td>
+                  <td data-id=3D"494" class=3D"px-4 py-3"><button data-id=
+=3D"495" class=3D"text-sm font-semibold text-linkedin hover:underline curso=
+r-pointer bg-transparent border-none task-review-btn" data-action=3D"workfl=
+ow">Review</button></td>
+                </tr>
+                <tr data-id=3D"496" class=3D"table-row border-b border-gray=
+-50">
+                  <td data-id=3D"497" class=3D"px-4 py-3 text-sm text-gray-=
+800 font-medium">Approve LinkedIn draft =E2=80=94 AI in HR</td>
+                  <td data-id=3D"498" class=3D"px-4 py-3 text-sm text-gray-=
+600">Gate 2</td>
+                  <td data-id=3D"499" class=3D"px-4 py-3 font-mono text-xs =
+text-linkedin font-semibold">RUN-001848</td>
+                  <td data-id=3D"500" class=3D"px-4 py-3 text-sm text-gray-=
+500 tabular-nums">Sep 25, 2:00 PM</td>
+                  <td data-id=3D"501" class=3D"px-4 py-3"><span data-id=3D"=
+502" class=3D"status-badge badge-expired">=F0=9F=9F=A1 Due Soon</span></td>
+                  <td data-id=3D"503" class=3D"px-4 py-3"><button data-id=
+=3D"504" class=3D"text-sm font-semibold text-linkedin hover:underline curso=
+r-pointer bg-transparent border-none task-review-btn" data-action=3D"workfl=
+ow">Review</button></td>
+                </tr>
+                <tr data-id=3D"505" class=3D"table-row border-b border-gray=
+-50">
+                  <td data-id=3D"506" class=3D"px-4 py-3 text-sm text-gray-=
+800 font-medium">Scheduled run =E2=80=94 Future of Work</td>
+                  <td data-id=3D"507" class=3D"px-4 py-3 text-sm text-gray-=
+600">Scheduled</td>
+                  <td data-id=3D"508" class=3D"px-4 py-3 font-mono text-xs =
+text-linkedin font-semibold">RUN-001850</td>
+                  <td data-id=3D"509" class=3D"px-4 py-3 text-sm text-gray-=
+500 tabular-nums">Sep 24, 3:00 PM</td>
+                  <td data-id=3D"510" class=3D"px-4 py-3"><span data-id=3D"=
+511" class=3D"status-badge badge-complete">=F0=9F=9F=A2 Upcoming</span></td=
+>
+                  <td data-id=3D"512" class=3D"px-4 py-3"><button data-id=
+=3D"513" class=3D"text-sm font-semibold text-linkedin hover:underline curso=
+r-pointer bg-transparent border-none task-review-btn" data-action=3D"histor=
+y">View</button></td>
+                </tr>
+                <tr data-id=3D"514" class=3D"table-row border-b border-gray=
+-50">
+                  <td data-id=3D"515" class=3D"px-4 py-3 text-sm text-gray-=
+800 font-medium">Approve LinkedIn draft =E2=80=94 Direct Sourcing</td>
+                  <td data-id=3D"516" class=3D"px-4 py-3 text-sm text-gray-=
+600">Gate 2</td>
+                  <td data-id=3D"517" class=3D"px-4 py-3 font-mono text-xs =
+text-linkedin font-semibold">RUN-001845</td>
+                  <td data-id=3D"518" class=3D"px-4 py-3 text-sm text-gray-=
+500 tabular-nums">Sep 26, 9:00 AM</td>
+                  <td data-id=3D"519" class=3D"px-4 py-3"><span data-id=3D"=
+520" class=3D"status-badge badge-progress">=F0=9F=9F=A2 On Track</span></td=
+>
+                  <td data-id=3D"521" class=3D"px-4 py-3"><button data-id=
+=3D"522" class=3D"text-sm font-semibold text-linkedin hover:underline curso=
+r-pointer bg-transparent border-none task-review-btn" data-action=3D"workfl=
+ow">Review</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =3D=3D=3D=3D=3D VIEW 5: Settings =3D=3D=3D=3D=3D -->
+    <div data-id=3D"523" class=3D"view-panel" id=3D"view-settings">
+      <div data-id=3D"524" class=3D"p-4 md:p-6 max-w-4xl">
+        <h2 data-id=3D"525" class=3D"text-lg font-semibold text-gray-800 mb=
+-4">Settings</h2>
+
+        <!-- Tabs -->
+        <div data-id=3D"526" class=3D"flex gap-1 border-b border-gray-200 m=
+b-6">
+          <button data-id=3D"527" class=3D"settings-tab active" data-stab=
+=3D"general">=E2=9A=99=EF=B8=8F General</button>
+          <button data-id=3D"528" class=3D"settings-tab" data-stab=3D"agent=
+">=F0=9F=A4=96 Agent Config</button>
+        </div>
+
+        <!-- General Tab -->
+        <div data-id=3D"529" class=3D"settings-panel active" id=3D"stab-gen=
+eral">
+          <!-- Webhook -->
+          <div data-id=3D"530" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"531" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-5 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"zap" aria-hidden=3D"true" dat=
+a-id=3D"532" class=3D"lucide lucide-zap w-4 h-4 text-linkedin"><path d=3D"M=
+15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.4=
+71.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 =
+0 01-.472-.667z"></path></svg> Power Automate Webhook</h3>
+            <div data-id=3D"533" class=3D"space-y-4">
+              <div data-id=3D"534">
+                <label data-id=3D"535" class=3D"form-label">Webhook URL</la=
+bel>
+                <div data-id=3D"536" class=3D"relative">
+                  <input data-id=3D"537" type=3D"password" class=3D"form-in=
+put pr-10" id=3D"webhook-url-el" placeholder=3D"https://prod-XX.eastus.logi=
+c.azure.com:443/workflows/...">
+                  <button data-id=3D"538" id=3D"toggle-wh-el" class=3D"abso=
+lute right-3 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer p-0 bg-t=
+ransparent border-none"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"=
+24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColo=
+r" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" da=
+ta-lucide=3D"eye" aria-hidden=3D"true" data-id=3D"539" class=3D"lucide luci=
+de-eye w-4 h-4"><path d=3D"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1=
+ 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx=3D=
+"12" cy=3D"12" r=3D"3"></circle></svg></button>
+                </div>
+              </div>
+              <div data-id=3D"540">
+                <label data-id=3D"541" class=3D"form-label">Flow Name</labe=
+l>
+                <input data-id=3D"542" type=3D"text" class=3D"form-input" v=
+alue=3D"LinkedIn Weekly Content Workflow" readonly=3D"" style=3D"background=
+:#f8fafc;">
+              </div>
+              <div data-id=3D"543" class=3D"flex items-center justify-betwe=
+en">
+                <div data-id=3D"544" class=3D"flex items-center gap-2"><div=
+ data-id=3D"545" id=3D"wh-status-dot" class=3D"w-2.5 h-2.5 rounded-full" st=
+yle=3D"background:#9ca3af;"></div><span data-id=3D"546" id=3D"wh-status-lab=
+el" class=3D"text-sm font-medium text-gray-700">Not configured</span></div>
+                <div data-id=3D"547" class=3D"flex gap-2">
+                  <button data-id=3D"548" id=3D"test-wh-el" class=3D"px-4 p=
+y-2 rounded-lg border border-gray-300 text-sm font-medium text-gray-600 hov=
+er:bg-gray-50 cursor-pointer">Test Webhook</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Schedule -->
+          <div data-id=3D"549" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"550" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-5 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"calendar-clock" aria-hidden=
+=3D"true" data-id=3D"551" class=3D"lucide lucide-calendar-clock w-4 h-4 tex=
+t-linkedin"><path d=3D"M16 14v2.2l1.6 1"></path><path d=3D"M16 2v3"></path>=
+<path d=3D"M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338"></=
+path><path d=3D"M3 9h5.859"></path><path d=3D"M8 2v3"></path><circle cx=3D"=
+16" cy=3D"16" r=3D"6"></circle></svg> Default Schedule</h3>
+            <div data-id=3D"552" class=3D"grid grid-cols-1 sm:grid-cols-3 g=
+ap-4 mb-4">
+              <div data-id=3D"553"><label data-id=3D"554" class=3D"form-lab=
+el">Day of Week</label><select data-id=3D"555" class=3D"form-select" id=3D"=
+sched-day-el"><option data-id=3D"556">Monday</option><option data-id=3D"557=
+">Tuesday</option><option data-id=3D"558" selected=3D"">Wednesday</option><=
+option data-id=3D"559">Thursday</option><option data-id=3D"560">Friday</opt=
+ion></select></div>
+              <div data-id=3D"561"><label data-id=3D"562" class=3D"form-lab=
+el">Time</label><input data-id=3D"563" type=3D"time" class=3D"form-input" i=
+d=3D"sched-time-el" value=3D"08:10"></div>
+              <div data-id=3D"564"><label data-id=3D"565" class=3D"form-lab=
+el">Timezone</label><select data-id=3D"566" class=3D"form-select" id=3D"sch=
+ed-tz-el"><option data-id=3D"567" selected=3D"">Eastern Time (ET)</option><=
+option data-id=3D"568">Central Time (CT)</option><option data-id=3D"569">Mo=
+untain Time (MT)</option><option data-id=3D"570">Pacific Time (PT)</option>=
+<option data-id=3D"571">UTC</option></select></div>
+            </div>
+            <div data-id=3D"572" class=3D"flex items-center justify-between=
+">
+              <span data-id=3D"573" class=3D"text-sm text-gray-700 font-med=
+ium">Enable Scheduled Runs</span>
+              <div data-id=3D"574" class=3D"toggle-track on" id=3D"tgl-sche=
+d"><div data-id=3D"575" class=3D"toggle-knob"></div></div>
+            </div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div data-id=3D"576" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"577" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-5 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"shield-alert" aria-hidden=3D"=
+true" data-id=3D"578" class=3D"lucide lucide-shield-alert w-4 h-4 text-link=
+edin"><path d=3D"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 =
+18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 =
+3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d=3D"M12 8v4"></path><path d=3D=
+"M12 16h.01"></path></svg> GenAI Disclaimer</h3>
+            <div data-id=3D"579" class=3D"p-4 rounded-lg text-sm text-gray-=
+600 leading-relaxed mb-4" style=3D"background:#f8fafc;border:1px solid #edf=
+0f5;">This content workflow uses generative AI to assist with article curat=
+ion, summarization, and LinkedIn post drafting. AI-generated outputs may co=
+ntain inaccuracies, incomplete context, or interpretation errors. All artic=
+le selections, summaries, source links, dates, and LinkedIn post drafts mus=
+t be reviewed and approved by an authorized human approver before publishin=
+g.</div>
+            <div data-id=3D"580" class=3D"flex items-center justify-between=
+">
+              <span data-id=3D"581" class=3D"text-sm text-gray-700 font-med=
+ium">Require approver to acknowledge disclaimer</span>
+              <div data-id=3D"582" class=3D"toggle-track on" id=3D"tgl-disc=
+l"><div data-id=3D"583" class=3D"toggle-knob"></div></div>
+            </div>
+          </div>
+
+          <button data-id=3D"584" id=3D"save-settings-el" class=3D"btn-prim=
+ary text-sm py-2.5 px-6"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D=
+"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentCol=
+or" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" d=
+ata-lucide=3D"save" aria-hidden=3D"true" data-id=3D"585" class=3D"lucide lu=
+cide-save w-4 h-4"><path d=3D"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 =
+1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d=3D"M1=
+7 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path><path d=3D"M7 3v4a1 1 0 0 0=
+ 1 1h7"></path></svg> Save Settings</button>
+        </div>
+
+        <!-- Agent Config Tab -->
+        <div data-id=3D"586" class=3D"settings-panel" id=3D"stab-agent">
+          <!-- Agent Role -->
+          <div data-id=3D"587" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"588" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"bot" aria-hidden=3D"true" dat=
+a-id=3D"589" class=3D"lucide lucide-bot w-4 h-4 text-linkedin"><path d=3D"M=
+12 8V4H8"></path><rect width=3D"16" height=3D"12" x=3D"4" y=3D"8" rx=3D"2">=
+</rect><path d=3D"M2 14h2"></path><path d=3D"M20 14h2"></path><path d=3D"M1=
+5 13v2"></path><path d=3D"M9 13v2"></path></svg> Agent Role &amp; Purpose</=
+h3>
+            <div data-id=3D"590" class=3D"config-mono">You are a News Curat=
+or supporting LinkedIn content automation for thought leadership posts unde=
+r Stephen Caruana's LinkedIn page. You are STATELESS. You ONLY return struc=
+tured JSON outputs.</div>
+          </div>
+
+          <!-- Voice Profile -->
+          <div data-id=3D"591" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"592" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"mic" aria-hidden=3D"true" dat=
+a-id=3D"593" class=3D"lucide lucide-mic w-4 h-4 text-linkedin"><path d=3D"M=
+12 19v3"></path><path d=3D"M19 10v2a7 7 0 0 1-14 0v-2"></path><rect x=3D"9"=
+ y=3D"2" width=3D"6" height=3D"13" rx=3D"3"></rect></svg> Stephen Caruana V=
+oice Profile</h3>
+            <div data-id=3D"594" class=3D"flex flex-wrap gap-2 mb-4">
+              <span data-id=3D"595" class=3D"tone-pill">Executive</span><sp=
+an data-id=3D"596" class=3D"tone-pill">Strategic</span><span data-id=3D"597=
+" class=3D"tone-pill">Thought Leadership</span><span data-id=3D"598" class=
+=3D"tone-pill">NYC Confident</span><span data-id=3D"599" class=3D"tone-pill=
+">Non-Promotional</span><span data-id=3D"600" class=3D"tone-pill">Direct</s=
+pan><span data-id=3D"601" class=3D"tone-pill">Quick-Witted</span><span data=
+-id=3D"602" class=3D"tone-pill">Authentic</span>
+            </div>
+            <div data-id=3D"603" class=3D"text-sm text-gray-600 space-y-2">
+              <div data-id=3D"604"><strong data-id=3D"605">Language:</stron=
+g> English (United States) only</div>
+              <div data-id=3D"606"><strong data-id=3D"607">Style note:</str=
+ong> <em data-id=3D"608">"Sound like an experienced workforce executive. Th=
+ink Judge Judy at Amazon. Concise, mouthy, no buzzword overload."</em></div=
+>
+            </div>
+          </div>
+
+          <!-- Recency Rules -->
+          <div data-id=3D"609" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"610" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"calendar-check" aria-hidden=
+=3D"true" data-id=3D"611" class=3D"lucide lucide-calendar-check w-4 h-4 tex=
+t-linkedin"><path d=3D"M8 2v3"></path><path d=3D"M16 2v3"></path><rect x=3D=
+"3" y=3D"3" width=3D"18" height=3D"18" rx=3D"2"></rect><path d=3D"M3 9h18">=
+</path><path d=3D"m9 15 2 2 4-4"></path></svg> Article Recency Rules (Non-N=
+egotiable)</h3>
+            <div data-id=3D"612" class=3D"space-y-2 text-sm text-gray-700">
+              <div data-id=3D"613" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"614" class=3D"text-green-600">=E2=9C=85</span> Published current =
+month OR prior month only</div>
+              <div data-id=3D"615" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"616" class=3D"text-green-600">=E2=9C=85</span> Must include: Titl=
+e, Source, Published Date, Summary, Direct URL</div>
+              <div data-id=3D"617" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"618" class=3D"text-green-600">=E2=9C=85</span> Min 1 article / Ma=
+x 3 articles</div>
+              <div data-id=3D"619" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"620" class=3D"text-green-600">=E2=9C=85</span> Do NOT fabricate a=
+rticles to meet target</div>
+              <div data-id=3D"621" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"622" class=3D"text-red-500">=E2=9D=8C</span> Any article outside =
+recency window =E2=86=92 exclude</div>
+              <div data-id=3D"623" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"624" class=3D"text-red-500">=E2=9D=8C</span> 0 valid articles =E2=
+=86=92 trigger failure &amp; terminate</div>
+            </div>
+          </div>
+
+          <!-- Post Footer -->
+          <div data-id=3D"625" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"626" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"file-text" aria-hidden=3D"tru=
+e" data-id=3D"627" class=3D"lucide lucide-file-text w-4 h-4 text-linkedin">=
+<path d=3D"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.=
+588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d=3D"M14 2v5a1=
+ 1 0 0 0 1 1h5"></path><path d=3D"M10 9H8"></path><path d=3D"M16 13H8"></pa=
+th><path d=3D"M16 17H8"></path></svg> Required Post Footers</h3>
+            <div data-id=3D"628" class=3D"mb-4">
+              <div data-id=3D"629" class=3D"flex items-center justify-betwe=
+en mb-2"><label data-id=3D"630" class=3D"form-label mb-0">Disclaimer</label=
+><button data-id=3D"631" class=3D"text-xs font-semibold text-linkedin curso=
+r-pointer bg-transparent border-none copy-footer-btn" data-target=3D"footer=
+-disc-el">=F0=9F=93=8B Copy</button></div>
+              <div data-id=3D"632" class=3D"config-mono text-xs" id=3D"foot=
+er-disc-el">Disclaimer - Created with generative AI and human-reviewed. For=
+ informational purposes only. Views are my own and do not represent any cur=
+rent or former employer or client. Please verify independently before actin=
+g.</div>
+            </div>
+            <div data-id=3D"633">
+              <div data-id=3D"634" class=3D"flex items-center justify-betwe=
+en mb-2"><label data-id=3D"635" class=3D"form-label mb-0">Forward-Looking S=
+tatement</label><button data-id=3D"636" class=3D"text-xs font-semibold text=
+-linkedin cursor-pointer bg-transparent border-none copy-footer-btn" data-t=
+arget=3D"footer-fls-el">=F0=9F=93=8B Copy</button></div>
+              <div data-id=3D"637" class=3D"config-mono text-xs" id=3D"foot=
+er-fls-el">Forward-Looking Statement: This content may include forward-look=
+ing perspectives on the contingent workforce, staffing, MSP and VMS ecosyst=
+ems, and workforce technology. Such views reflect current assumptions as of=
+ the publication date and are subject to change. Actual outcomes may differ=
+ materially.</div>
+            </div>
+          </div>
+
+          <!-- Approval Recipients -->
+          <div data-id=3D"638" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"639" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"users" aria-hidden=3D"true" d=
+ata-id=3D"640" class=3D"lucide lucide-users w-4 h-4 text-linkedin"><path d=
+=3D"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d=3D"M16 3.128a=
+4 4 0 0 1 0 7.744"></path><path d=3D"M22 21v-2a4 4 0 0 0-3-3.87"></path><ci=
+rcle cx=3D"9" cy=3D"7" r=3D"4"></circle></svg> Approval Gate Email Recipien=
+ts</h3>
+            <div data-id=3D"641" class=3D"space-y-3">
+              <div data-id=3D"642" class=3D"email-badge"><span data-id=3D"6=
+43">=F0=9F=93=A7</span><strong data-id=3D"644">scaruana33@gmail.com</strong=
+><span data-id=3D"645" class=3D"text-xs text-gray-400">=E2=80=94 Primary Ap=
+prover</span></div>
+              <div data-id=3D"646" class=3D"email-badge"><span data-id=3D"6=
+47">=F0=9F=93=A7</span><strong data-id=3D"648">admin@nomorereportsontherun.=
+com</strong><span data-id=3D"649" class=3D"text-xs text-gray-400">=E2=80=94=
+ Admin</span></div>
+              <div data-id=3D"650" class=3D"email-badge"><span data-id=3D"6=
+51">=F0=9F=93=A7</span><strong data-id=3D"652">rharrington758@gmail.com</st=
+rong><span data-id=3D"653" class=3D"text-xs text-gray-400">=E2=80=94 Stakeh=
+older</span></div>
+            </div>
+          </div>
+
+          <!-- Failure Handling -->
+          <div data-id=3D"654" class=3D"card p-5 md:p-6 mb-5">
+            <h3 data-id=3D"655" class=3D"text-xs font-semibold text-gray-80=
+0 uppercase tracking-wider mb-4 flex items-center gap-2"><svg xmlns=3D"http=
+://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round" data-lucide=3D"alert-triangle" aria-hidden=
+=3D"true" data-id=3D"656" class=3D"lucide lucide-alert-triangle w-4 h-4 tex=
+t-danger"><path d=3D"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h1=
+6a2 2 0 0 0 1.73-3"></path><path d=3D"M12 9v4"></path><path d=3D"M12 17h.01=
+"></path></svg> Failure Conditions &amp; Actions</h3>
+            <div data-id=3D"657" class=3D"space-y-2 text-sm text-gray-700 m=
+b-4">
+              <div data-id=3D"658" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"659" class=3D"text-red-500">=F0=9F=94=B4</span> 0 valid articles =
+found =E2=86=92 Alert + Terminate</div>
+              <div data-id=3D"660" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"661" class=3D"text-yellow-500">=F0=9F=9F=A1</span> Article violat=
+es recency rule =E2=86=92 Exclude, re-evaluate count</div>
+              <div data-id=3D"662" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"663" class=3D"text-red-500">=F0=9F=94=B4</span> Required fields m=
+issing (date, URL) =E2=86=92 Alert + Terminate</div>
+              <div data-id=3D"664" class=3D"flex items-start gap-2"><span d=
+ata-id=3D"665" class=3D"text-yellow-500">=F0=9F=9F=A1</span> Approval windo=
+w expired =E2=86=92 Notify + Terminate</div>
+            </div>
+            <div data-id=3D"666" class=3D"p-3 rounded-lg text-xs text-gray-=
+600 leading-relaxed" style=3D"background:#fce8e8;border:1px solid #fca5a5;"=
+><strong data-id=3D"667">Action:</strong> Send alert notification to all 3 =
+recipients, terminate workflow, log to Run History as =E2=9D=8C Failed</div=
+>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer data-id=3D"668" class=3D"py-6 text-center border-t border-gray-=
+100 mt-auto">
+      <p data-id=3D"669" class=3D"text-xs text-gray-400">Made by Copilot</p=
+>
+    </footer>
+  </div>
+
+ =20
+
+</body></html>
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/scaru/Downloads/LinkedIn%20Content%20Curation%20Agent%20%E2%80%94%20Intake%20Portal_files/css2
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-37cea691-6c2a-4048-bb61-bca2d49c2b5e@mhtml.blink
+
+@charset "utf-8";
+
+*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; =
+--tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; -=
+-tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: =
+; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-=
+from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ;=
+ --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-s=
+pacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-widt=
+h: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5=
+); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-sh=
+adow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightne=
+ss: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; =
+--tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --=
+tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale=
+: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opaci=
+ty: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ;=
+ --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+::backdrop { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-trans=
+late-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y=
+: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pin=
+ch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-posit=
+ion: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordi=
+nal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; =
+--tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --=
+tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ri=
+ng-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 =
+#0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw=
+-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-satur=
+ate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdro=
+p-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-b=
+ackdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw=
+-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-cont=
+ain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-st=
+yle: solid; border-color: rgb(229, 231, 235); }
+
+::after, ::before { --tw-content: ''; }
+
+:host, html { line-height: 1.5; text-size-adjust: 100%; tab-size: 4; font-f=
+amily: Inter, system-ui, -apple-system, sans-serif; font-feature-settings: =
+normal; font-variation-settings: normal; -webkit-tap-highlight-color: trans=
+parent; }
+
+body { margin: 0px; line-height: inherit; }
+
+hr { height: 0px; color: inherit; border-top-width: 1px; }
+
+abbr:where([title]) { text-decoration: underline dotted; }
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+
+a { color: inherit; text-decoration: inherit; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, pre, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Mo=
+naco, Consolas, "Liberation Mono", "Courier New", monospace; font-feature-s=
+ettings: normal; font-variation-settings: normal; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+table { text-indent: 0px; border-color: inherit; border-collapse: collapse;=
+ }
+
+button, input, optgroup, select, textarea { font-family: inherit; font-feat=
+ure-settings: inherit; font-variation-settings: inherit; font-size: 100%; f=
+ont-weight: inherit; line-height: inherit; letter-spacing: inherit; color: =
+inherit; margin: 0px; padding: 0px; }
+
+button, select { text-transform: none; }
+
+button, input:where([type=3D"button"]), input:where([type=3D"reset"]), inpu=
+t:where([type=3D"submit"]) { appearance: button; background-color: transpar=
+ent; background-image: none; }
+
+progress { vertical-align: baseline; }
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+
+[type=3D"search"] { appearance: textfield; outline-offset: -2px; }
+
+::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+summary { display: list-item; }
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre { margin: 0p=
+x; }
+
+fieldset { margin: 0px; padding: 0px; }
+
+legend { padding: 0px; }
+
+menu, ol, ul { list-style: none; margin: 0px; padding: 0px; }
+
+dialog { padding: 0px; }
+
+textarea { resize: vertical; }
+
+input::placeholder, textarea::placeholder { opacity: 1; color: rgb(156, 163=
+, 175); }
+
+[role=3D"button"], button { cursor: pointer; }
+
+:disabled { cursor: default; }
+
+audio, canvas, embed, iframe, img, object, svg, video { display: block; ver=
+tical-align: middle; }
+
+img, video { max-width: 100%; height: auto; }
+
+[hidden]:where(:not([hidden=3D"until-found"])) { display: none; }
+
+.absolute { position: absolute; }
+
+.relative { position: relative; }
+
+.sticky { position: sticky; }
+
+.left-3 { left: 0.75rem; }
+
+.top-0 { top: 0px; }
+
+.top-1\/2 { top: 50%; }
+
+.right-3 { right: 0.75rem; }
+
+.z-30 { z-index: 30; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+
+.mb-2 { margin-bottom: 0.5rem; }
+
+.mb-3 { margin-bottom: 0.75rem; }
+
+.mb-4 { margin-bottom: 1rem; }
+
+.mb-5 { margin-bottom: 1.25rem; }
+
+.mb-6 { margin-bottom: 1.5rem; }
+
+.mt-0\.5 { margin-top: 0.125rem; }
+
+.mt-1 { margin-top: 0.25rem; }
+
+.mt-2 { margin-top: 0.5rem; }
+
+.mt-3 { margin-top: 0.75rem; }
+
+.mt-4 { margin-top: 1rem; }
+
+.mt-5 { margin-top: 1.25rem; }
+
+.mb-0 { margin-bottom: 0px; }
+
+.mt-auto { margin-top: auto; }
+
+.inline-block { display: inline-block; }
+
+.flex { display: flex; }
+
+.table-row { display: table-row; }
+
+.grid { display: grid; }
+
+.hidden { display: none; }
+
+.h-12 { height: 3rem; }
+
+.h-16 { height: 4rem; }
+
+.h-4 { height: 1rem; }
+
+.h-5 { height: 1.25rem; }
+
+.h-6 { height: 1.5rem; }
+
+.h-64 { height: 16rem; }
+
+.h-7 { height: 1.75rem; }
+
+.h-8 { height: 2rem; }
+
+.h-9 { height: 2.25rem; }
+
+.h-2\.5 { height: 0.625rem; }
+
+.h-3 { height: 0.75rem; }
+
+.h-52 { height: 13rem; }
+
+.w-12 { width: 3rem; }
+
+.w-16 { width: 4rem; }
+
+.w-4 { width: 1rem; }
+
+.w-5 { width: 1.25rem; }
+
+.w-6 { width: 1.5rem; }
+
+.w-7 { width: 1.75rem; }
+
+.w-8 { width: 2rem; }
+
+.w-9 { width: 2.25rem; }
+
+.w-full { width: 100%; }
+
+.w-2\.5 { width: 0.625rem; }
+
+.w-3 { width: 0.75rem; }
+
+.min-w-0 { min-width: 0px; }
+
+.max-w-lg { max-width: 32rem; }
+
+.max-w-4xl { max-width: 56rem; }
+
+.flex-1 { flex: 1 1 0%; }
+
+.flex-\[2\] { flex: 2 1 0%; }
+
+.flex-\[3\] { flex: 3 1 0%; }
+
+.flex-shrink-0 { flex-shrink: 0; }
+
+.-translate-y-1\/2 { --tw-translate-y: -50%; transform: translate(var(--tw-=
+translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--t=
+w-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--t=
+w-scale-y)); }
+
+.cursor-pointer { cursor: pointer; }
+
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0px, 1fr)); }
+
+.flex-col { flex-direction: column; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.items-start { align-items: flex-start; }
+
+.items-center { align-items: center; }
+
+.justify-end { justify-content: flex-end; }
+
+.justify-center { justify-content: center; }
+
+.justify-between { justify-content: space-between; }
+
+.gap-2 { gap: 0.5rem; }
+
+.gap-2\.5 { gap: 0.625rem; }
+
+.gap-3 { gap: 0.75rem; }
+
+.gap-4 { gap: 1rem; }
+
+.gap-6 { gap: 1.5rem; }
+
+.gap-1 { gap: 0.25rem; }
+
+.gap-1\.5 { gap: 0.375rem; }
+
+.gap-x-5 { column-gap: 1.25rem; }
+
+.gap-y-1 { row-gap: 0.25rem; }
+
+.gap-y-2 { row-gap: 0.5rem; }
+
+.gap-x-4 { column-gap: 1rem; }
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom:=
+ calc(0.5rem * var(--tw-space-y-reverse)); }
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom=
+: calc(0.75rem * var(--tw-space-y-reverse)); }
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom=
+: calc(1.25rem * var(--tw-space-y-reverse)); }
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: c=
+alc(1rem * var(--tw-space-y-reverse)); }
+
+.overflow-hidden { overflow: hidden; }
+
+.overflow-x-auto { overflow-x: auto; }
+
+.rounded { border-radius: 0.25rem; }
+
+.rounded-full { border-radius: 9999px; }
+
+.rounded-lg { border-radius: 0.5rem; }
+
+.border { border-width: 1px; }
+
+.border-2 { border-width: 2px; }
+
+.border-b { border-bottom-width: 1px; }
+
+.border-t { border-top-width: 1px; }
+
+.border-none { border-style: none; }
+
+.border-blue-100 { --tw-border-opacity: 1; border-color: rgb(219 234 254 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-100 { --tw-border-opacity: 1; border-color: rgb(243 244 246 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-200 { --tw-border-opacity: 1; border-color: rgb(229 231 235 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-300 { --tw-border-opacity: 1; border-color: rgb(209 213 219 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-50 { --tw-border-opacity: 1; border-color: rgb(249 250 251 / v=
+ar(--tw-border-opacity, 1)); }
+
+.border-red-400 { --tw-border-opacity: 1; border-color: rgb(248 113 113 / v=
+ar(--tw-border-opacity, 1)); }
+
+.bg-surface-50 { --tw-bg-opacity: 1; background-color: rgb(244 246 249 / va=
+r(--tw-bg-opacity, 1)); }
+
+.bg-gray-50 { --tw-bg-opacity: 1; background-color: rgb(249 250 251 / var(-=
+-tw-bg-opacity, 1)); }
+
+.bg-linkedin { --tw-bg-opacity: 1; background-color: rgb(0 119 181 / var(--=
+tw-bg-opacity, 1)); }
+
+.bg-linkedin-light { --tw-bg-opacity: 1; background-color: rgb(0 160 220 / =
+var(--tw-bg-opacity, 1)); }
+
+.bg-red-50 { --tw-bg-opacity: 1; background-color: rgb(254 242 242 / var(--=
+tw-bg-opacity, 1)); }
+
+.bg-red-600 { --tw-bg-opacity: 1; background-color: rgb(220 38 38 / var(--t=
+w-bg-opacity, 1)); }
+
+.bg-transparent { background-color: transparent; }
+
+.bg-white { --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--t=
+w-bg-opacity, 1)); }
+
+.p-0 { padding: 0px; }
+
+.p-1 { padding: 0.25rem; }
+
+.p-1\.5 { padding: 0.375rem; }
+
+.p-12 { padding: 3rem; }
+
+.p-2 { padding: 0.5rem; }
+
+.p-2\.5 { padding: 0.625rem; }
+
+.p-3 { padding: 0.75rem; }
+
+.p-4 { padding: 1rem; }
+
+.p-5 { padding: 1.25rem; }
+
+.px-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
+
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+.py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
+
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+
+.py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+
+.py-3\.5 { padding-top: 0.875rem; padding-bottom: 0.875rem; }
+
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+
+.pb-2 { padding-bottom: 0.5rem; }
+
+.pb-4 { padding-bottom: 1rem; }
+
+.pl-9 { padding-left: 2.25rem; }
+
+.pt-5 { padding-top: 1.25rem; }
+
+.pr-10 { padding-right: 2.5rem; }
+
+.text-left { text-align: left; }
+
+.text-center { text-align: center; }
+
+.font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Cons=
+olas, "Liberation Mono", "Courier New", monospace; }
+
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+
+.text-5xl { font-size: 3rem; line-height: 1; }
+
+.text-\[10px\] { font-size: 10px; }
+
+.text-base { font-size: 1rem; line-height: 1.5rem; }
+
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+
+.text-xs { font-size: 0.75rem; line-height: 1rem; }
+
+.font-bold { font-weight: 700; }
+
+.font-medium { font-weight: 500; }
+
+.font-semibold { font-weight: 600; }
+
+.uppercase { text-transform: uppercase; }
+
+.italic { font-style: italic; }
+
+.tabular-nums { --tw-numeric-spacing: tabular-nums; font-variant-numeric: v=
+ar(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-n=
+umeric-spacing) var(--tw-numeric-fraction); }
+
+.leading-relaxed { line-height: 1.625; }
+
+.leading-tight { line-height: 1.25; }
+
+.tracking-wider { letter-spacing: 0.05em; }
+
+.text-blue-400 { --tw-text-opacity: 1; color: rgb(96 165 250 / var(--tw-tex=
+t-opacity, 1)); }
+
+.text-gray-300 { --tw-text-opacity: 1; color: rgb(209 213 219 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-400 { --tw-text-opacity: 1; color: rgb(156 163 175 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-500 { --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-600 { --tw-text-opacity: 1; color: rgb(75 85 99 / var(--tw-text-=
+opacity, 1)); }
+
+.text-gray-700 { --tw-text-opacity: 1; color: rgb(55 65 81 / var(--tw-text-=
+opacity, 1)); }
+
+.text-gray-800 { --tw-text-opacity: 1; color: rgb(31 41 55 / var(--tw-text-=
+opacity, 1)); }
+
+.text-gray-900 { --tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-=
+opacity, 1)); }
+
+.text-linkedin { --tw-text-opacity: 1; color: rgb(0 119 181 / var(--tw-text=
+-opacity, 1)); }
+
+.text-red-600 { --tw-text-opacity: 1; color: rgb(220 38 38 / var(--tw-text-=
+opacity, 1)); }
+
+.text-red-800 { --tw-text-opacity: 1; color: rgb(153 27 27 / var(--tw-text-=
+opacity, 1)); }
+
+.text-white { --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-=
+opacity, 1)); }
+
+.text-danger { --tw-text-opacity: 1; color: rgb(204 16 22 / var(--tw-text-o=
+pacity, 1)); }
+
+.text-green-600 { --tw-text-opacity: 1; color: rgb(22 163 74 / var(--tw-tex=
+t-opacity, 1)); }
+
+.text-red-500 { --tw-text-opacity: 1; color: rgb(239 68 68 / var(--tw-text-=
+opacity, 1)); }
+
+.text-yellow-500 { --tw-text-opacity: 1; color: rgb(234 179 8 / var(--tw-te=
+xt-opacity, 1)); }
+
+.opacity-60 { opacity: 0.6; }
+
+.opacity-70 { opacity: 0.7; }
+
+.transition-colors { transition-property: color, background-color, border-c=
+olor, text-decoration-color, fill, stroke, -webkit-text-decoration-color; t=
+ransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duratio=
+n: 150ms; }
+
+.hover\:bg-blue-50:hover { --tw-bg-opacity: 1; background-color: rgb(239 24=
+6 255 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-gray-100:hover { --tw-bg-opacity: 1; background-color: rgb(243 2=
+44 246 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-gray-50:hover { --tw-bg-opacity: 1; background-color: rgb(249 25=
+0 251 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-red-700:hover { --tw-bg-opacity: 1; background-color: rgb(185 28=
+ 28 / var(--tw-bg-opacity, 1)); }
+
+.hover\:text-linkedin:hover { --tw-text-opacity: 1; color: rgb(0 119 181 / =
+var(--tw-text-opacity, 1)); }
+
+.hover\:underline:hover { text-decoration-line: underline; }
+
+@media (min-width: 640px) {
+  .sm\:inline { display: inline; }
+  .sm\:w-auto { width: auto; }
+  .sm\:flex-initial { flex: 0 1 auto; }
+  .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .sm\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .sm\:flex-row { flex-direction: row; }
+  .sm\:items-center { align-items: center; }
+}
+
+@media (min-width: 768px) {
+  .md\:h-72 { height: 18rem; }
+  .md\:h-56 { height: 14rem; }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .md\:p-6 { padding: 1.5rem; }
+  .md\:p-8 { padding: 2rem; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:sticky { position: sticky; }
+  .lg\:top-\[72px\] { top: 72px; }
+  .lg\:w-\[40\%\] { width: 40%; }
+  .lg\:max-w-\[60\%\] { max-width: 60%; }
+  .lg\:flex-shrink-0 { flex-shrink: 0; }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0px, 1fr)); }
+  .lg\:flex-row { flex-direction: row; }
+}
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-67ac8b7a-bee6-4764-b5fa-11345c1d98ba@mhtml.blink
+
+@charset "utf-8";
+
+*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; =
+--tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; -=
+-tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: =
+; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-=
+from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ;=
+ --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-s=
+pacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-widt=
+h: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5=
+); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-sh=
+adow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightne=
+ss: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; =
+--tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --=
+tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale=
+: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opaci=
+ty: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ;=
+ --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+::backdrop { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-trans=
+late-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y=
+: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pin=
+ch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-posit=
+ion: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordi=
+nal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; =
+--tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --=
+tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ri=
+ng-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 =
+#0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw=
+-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-satur=
+ate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdro=
+p-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-b=
+ackdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw=
+-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-cont=
+ain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-st=
+yle: solid; border-color: rgb(229, 231, 235); }
+
+::after, ::before { --tw-content: ''; }
+
+:host, html { line-height: 1.5; text-size-adjust: 100%; tab-size: 4; font-f=
+amily: Inter, system-ui, -apple-system, sans-serif; font-feature-settings: =
+normal; font-variation-settings: normal; -webkit-tap-highlight-color: trans=
+parent; }
+
+body { margin: 0px; line-height: inherit; }
+
+hr { height: 0px; color: inherit; border-top-width: 1px; }
+
+abbr:where([title]) { text-decoration: underline dotted; }
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+
+a { color: inherit; text-decoration: inherit; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, pre, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Mo=
+naco, Consolas, "Liberation Mono", "Courier New", monospace; font-feature-s=
+ettings: normal; font-variation-settings: normal; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+table { text-indent: 0px; border-color: inherit; border-collapse: collapse;=
+ }
+
+button, input, optgroup, select, textarea { font-family: inherit; font-feat=
+ure-settings: inherit; font-variation-settings: inherit; font-size: 100%; f=
+ont-weight: inherit; line-height: inherit; letter-spacing: inherit; color: =
+inherit; margin: 0px; padding: 0px; }
+
+button, select { text-transform: none; }
+
+button, input:where([type=3D"button"]), input:where([type=3D"reset"]), inpu=
+t:where([type=3D"submit"]) { appearance: button; background-color: transpar=
+ent; background-image: none; }
+
+progress { vertical-align: baseline; }
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+
+[type=3D"search"] { appearance: textfield; outline-offset: -2px; }
+
+::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+summary { display: list-item; }
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre { margin: 0p=
+x; }
+
+fieldset { margin: 0px; padding: 0px; }
+
+legend { padding: 0px; }
+
+menu, ol, ul { list-style: none; margin: 0px; padding: 0px; }
+
+dialog { padding: 0px; }
+
+textarea { resize: vertical; }
+
+input::placeholder, textarea::placeholder { opacity: 1; color: rgb(156, 163=
+, 175); }
+
+[role=3D"button"], button { cursor: pointer; }
+
+:disabled { cursor: default; }
+
+audio, canvas, embed, iframe, img, object, svg, video { display: block; ver=
+tical-align: middle; }
+
+img, video { max-width: 100%; height: auto; }
+
+[hidden]:where(:not([hidden=3D"until-found"])) { display: none; }
+
+.absolute { position: absolute; }
+
+.relative { position: relative; }
+
+.sticky { position: sticky; }
+
+.top-0 { top: 0px; }
+
+.left-3 { left: 0.75rem; }
+
+.right-3 { right: 0.75rem; }
+
+.top-1\/2 { top: 50%; }
+
+.z-30 { z-index: 30; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+
+.mb-2 { margin-bottom: 0.5rem; }
+
+.mb-4 { margin-bottom: 1rem; }
+
+.mb-5 { margin-bottom: 1.25rem; }
+
+.mt-0\.5 { margin-top: 0.125rem; }
+
+.mt-3 { margin-top: 0.75rem; }
+
+.mt-4 { margin-top: 1rem; }
+
+.mt-5 { margin-top: 1.25rem; }
+
+.mb-0 { margin-bottom: 0px; }
+
+.mb-3 { margin-bottom: 0.75rem; }
+
+.mb-6 { margin-bottom: 1.5rem; }
+
+.mt-1 { margin-top: 0.25rem; }
+
+.mt-2 { margin-top: 0.5rem; }
+
+.mt-auto { margin-top: auto; }
+
+.inline-block { display: inline-block; }
+
+.flex { display: flex; }
+
+.table-row { display: table-row; }
+
+.grid { display: grid; }
+
+.hidden { display: none; }
+
+.h-4 { height: 1rem; }
+
+.h-5 { height: 1.25rem; }
+
+.h-6 { height: 1.5rem; }
+
+.h-7 { height: 1.75rem; }
+
+.h-8 { height: 2rem; }
+
+.h-9 { height: 2.25rem; }
+
+.h-12 { height: 3rem; }
+
+.h-16 { height: 4rem; }
+
+.h-2\.5 { height: 0.625rem; }
+
+.h-3 { height: 0.75rem; }
+
+.h-52 { height: 13rem; }
+
+.h-64 { height: 16rem; }
+
+.w-4 { width: 1rem; }
+
+.w-5 { width: 1.25rem; }
+
+.w-6 { width: 1.5rem; }
+
+.w-7 { width: 1.75rem; }
+
+.w-8 { width: 2rem; }
+
+.w-9 { width: 2.25rem; }
+
+.w-12 { width: 3rem; }
+
+.w-16 { width: 4rem; }
+
+.w-2\.5 { width: 0.625rem; }
+
+.w-3 { width: 0.75rem; }
+
+.w-full { width: 100%; }
+
+.min-w-0 { min-width: 0px; }
+
+.max-w-4xl { max-width: 56rem; }
+
+.max-w-lg { max-width: 32rem; }
+
+.flex-1 { flex: 1 1 0%; }
+
+.flex-\[2\] { flex: 2 1 0%; }
+
+.flex-\[3\] { flex: 3 1 0%; }
+
+.flex-shrink-0 { flex-shrink: 0; }
+
+.-translate-y-1\/2 { --tw-translate-y: -50%; transform: translate(var(--tw-=
+translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--t=
+w-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--t=
+w-scale-y)); }
+
+.cursor-pointer { cursor: pointer; }
+
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0px, 1fr)); }
+
+.flex-col { flex-direction: column; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.items-start { align-items: flex-start; }
+
+.items-center { align-items: center; }
+
+.justify-end { justify-content: flex-end; }
+
+.justify-center { justify-content: center; }
+
+.justify-between { justify-content: space-between; }
+
+.gap-2 { gap: 0.5rem; }
+
+.gap-2\.5 { gap: 0.625rem; }
+
+.gap-3 { gap: 0.75rem; }
+
+.gap-6 { gap: 1.5rem; }
+
+.gap-1 { gap: 0.25rem; }
+
+.gap-1\.5 { gap: 0.375rem; }
+
+.gap-4 { gap: 1rem; }
+
+.gap-x-4 { column-gap: 1rem; }
+
+.gap-x-5 { column-gap: 1.25rem; }
+
+.gap-y-1 { row-gap: 0.25rem; }
+
+.gap-y-2 { row-gap: 0.5rem; }
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom:=
+ calc(0.5rem * var(--tw-space-y-reverse)); }
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom=
+: calc(1.25rem * var(--tw-space-y-reverse)); }
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom=
+: calc(0.75rem * var(--tw-space-y-reverse)); }
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; mar=
+gin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: c=
+alc(1rem * var(--tw-space-y-reverse)); }
+
+.overflow-hidden { overflow: hidden; }
+
+.overflow-x-auto { overflow-x: auto; }
+
+.rounded { border-radius: 0.25rem; }
+
+.rounded-full { border-radius: 9999px; }
+
+.rounded-lg { border-radius: 0.5rem; }
+
+.border { border-width: 1px; }
+
+.border-2 { border-width: 2px; }
+
+.border-b { border-bottom-width: 1px; }
+
+.border-t { border-top-width: 1px; }
+
+.border-none { border-style: none; }
+
+.border-gray-200 { --tw-border-opacity: 1; border-color: rgb(229 231 235 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-300 { --tw-border-opacity: 1; border-color: rgb(209 213 219 / =
+var(--tw-border-opacity, 1)); }
+
+.border-blue-100 { --tw-border-opacity: 1; border-color: rgb(219 234 254 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-100 { --tw-border-opacity: 1; border-color: rgb(243 244 246 / =
+var(--tw-border-opacity, 1)); }
+
+.border-gray-50 { --tw-border-opacity: 1; border-color: rgb(249 250 251 / v=
+ar(--tw-border-opacity, 1)); }
+
+.border-red-400 { --tw-border-opacity: 1; border-color: rgb(248 113 113 / v=
+ar(--tw-border-opacity, 1)); }
+
+.bg-gray-50 { --tw-bg-opacity: 1; background-color: rgb(249 250 251 / var(-=
+-tw-bg-opacity, 1)); }
+
+.bg-linkedin { --tw-bg-opacity: 1; background-color: rgb(0 119 181 / var(--=
+tw-bg-opacity, 1)); }
+
+.bg-linkedin-light { --tw-bg-opacity: 1; background-color: rgb(0 160 220 / =
+var(--tw-bg-opacity, 1)); }
+
+.bg-surface-50 { --tw-bg-opacity: 1; background-color: rgb(244 246 249 / va=
+r(--tw-bg-opacity, 1)); }
+
+.bg-transparent { background-color: transparent; }
+
+.bg-white { --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--t=
+w-bg-opacity, 1)); }
+
+.bg-red-50 { --tw-bg-opacity: 1; background-color: rgb(254 242 242 / var(--=
+tw-bg-opacity, 1)); }
+
+.bg-red-600 { --tw-bg-opacity: 1; background-color: rgb(220 38 38 / var(--t=
+w-bg-opacity, 1)); }
+
+.p-1 { padding: 0.25rem; }
+
+.p-2 { padding: 0.5rem; }
+
+.p-2\.5 { padding: 0.625rem; }
+
+.p-4 { padding: 1rem; }
+
+.p-5 { padding: 1.25rem; }
+
+.p-0 { padding: 0px; }
+
+.p-1\.5 { padding: 0.375rem; }
+
+.p-12 { padding: 3rem; }
+
+.p-3 { padding: 0.75rem; }
+
+.px-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
+
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+
+.py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+
+.py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
+
+.py-3\.5 { padding-top: 0.875rem; padding-bottom: 0.875rem; }
+
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+
+.pb-2 { padding-bottom: 0.5rem; }
+
+.pb-4 { padding-bottom: 1rem; }
+
+.pt-5 { padding-top: 1.25rem; }
+
+.pl-9 { padding-left: 2.25rem; }
+
+.pr-10 { padding-right: 2.5rem; }
+
+.text-left { text-align: left; }
+
+.text-center { text-align: center; }
+
+.font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Cons=
+olas, "Liberation Mono", "Courier New", monospace; }
+
+.text-5xl { font-size: 3rem; line-height: 1; }
+
+.text-\[10px\] { font-size: 10px; }
+
+.text-base { font-size: 1rem; line-height: 1.5rem; }
+
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+
+.text-xs { font-size: 0.75rem; line-height: 1rem; }
+
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+
+.font-bold { font-weight: 700; }
+
+.font-medium { font-weight: 500; }
+
+.font-semibold { font-weight: 600; }
+
+.uppercase { text-transform: uppercase; }
+
+.italic { font-style: italic; }
+
+.tabular-nums { --tw-numeric-spacing: tabular-nums; font-variant-numeric: v=
+ar(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-n=
+umeric-spacing) var(--tw-numeric-fraction); }
+
+.leading-tight { line-height: 1.25; }
+
+.leading-relaxed { line-height: 1.625; }
+
+.tracking-wider { letter-spacing: 0.05em; }
+
+.text-blue-400 { --tw-text-opacity: 1; color: rgb(96 165 250 / var(--tw-tex=
+t-opacity, 1)); }
+
+.text-gray-400 { --tw-text-opacity: 1; color: rgb(156 163 175 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-500 { --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-600 { --tw-text-opacity: 1; color: rgb(75 85 99 / var(--tw-text-=
+opacity, 1)); }
+
+.text-gray-800 { --tw-text-opacity: 1; color: rgb(31 41 55 / var(--tw-text-=
+opacity, 1)); }
+
+.text-gray-900 { --tw-text-opacity: 1; color: rgb(17 24 39 / var(--tw-text-=
+opacity, 1)); }
+
+.text-linkedin { --tw-text-opacity: 1; color: rgb(0 119 181 / var(--tw-text=
+-opacity, 1)); }
+
+.text-white { --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-=
+opacity, 1)); }
+
+.text-danger { --tw-text-opacity: 1; color: rgb(204 16 22 / var(--tw-text-o=
+pacity, 1)); }
+
+.text-gray-300 { --tw-text-opacity: 1; color: rgb(209 213 219 / var(--tw-te=
+xt-opacity, 1)); }
+
+.text-gray-700 { --tw-text-opacity: 1; color: rgb(55 65 81 / var(--tw-text-=
+opacity, 1)); }
+
+.text-green-600 { --tw-text-opacity: 1; color: rgb(22 163 74 / var(--tw-tex=
+t-opacity, 1)); }
+
+.text-red-500 { --tw-text-opacity: 1; color: rgb(239 68 68 / var(--tw-text-=
+opacity, 1)); }
+
+.text-red-600 { --tw-text-opacity: 1; color: rgb(220 38 38 / var(--tw-text-=
+opacity, 1)); }
+
+.text-red-800 { --tw-text-opacity: 1; color: rgb(153 27 27 / var(--tw-text-=
+opacity, 1)); }
+
+.text-yellow-500 { --tw-text-opacity: 1; color: rgb(234 179 8 / var(--tw-te=
+xt-opacity, 1)); }
+
+.opacity-60 { opacity: 0.6; }
+
+.opacity-70 { opacity: 0.7; }
+
+.transition-colors { transition-property: color, background-color, border-c=
+olor, text-decoration-color, fill, stroke, -webkit-text-decoration-color; t=
+ransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duratio=
+n: 150ms; }
+
+.hover\:bg-gray-100:hover { --tw-bg-opacity: 1; background-color: rgb(243 2=
+44 246 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-gray-50:hover { --tw-bg-opacity: 1; background-color: rgb(249 25=
+0 251 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-red-700:hover { --tw-bg-opacity: 1; background-color: rgb(185 28=
+ 28 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-blue-50:hover { --tw-bg-opacity: 1; background-color: rgb(239 24=
+6 255 / var(--tw-bg-opacity, 1)); }
+
+.hover\:text-linkedin:hover { --tw-text-opacity: 1; color: rgb(0 119 181 / =
+var(--tw-text-opacity, 1)); }
+
+.hover\:underline:hover { text-decoration-line: underline; }
+
+@media (min-width: 640px) {
+  .sm\:inline { display: inline; }
+  .sm\:w-auto { width: auto; }
+  .sm\:flex-initial { flex: 0 1 auto; }
+  .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .sm\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .sm\:flex-row { flex-direction: row; }
+  .sm\:items-center { align-items: center; }
+}
+
+@media (min-width: 768px) {
+  .md\:h-56 { height: 14rem; }
+  .md\:h-72 { height: 18rem; }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .md\:p-6 { padding: 1.5rem; }
+  .md\:p-8 { padding: 2rem; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:sticky { position: sticky; }
+  .lg\:top-\[72px\] { top: 72px; }
+  .lg\:w-\[40\%\] { width: 40%; }
+  .lg\:max-w-\[60\%\] { max-width: 60%; }
+  .lg\:flex-shrink-0 { flex-shrink: 0; }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0px, 1fr)); }
+  .lg\:flex-row { flex-direction: row; }
+}
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a8afdde3-e201-4359-9729-353e7063310d@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 0p=
+x; background: rgb(244, 246, 249); color: rgb(26, 26, 46); overflow-x: hidd=
+en; }
+
+::-webkit-scrollbar { width: 6px; }
+
+::-webkit-scrollbar-track { background: transparent; }
+
+::-webkit-scrollbar-thumb { background: rgb(192, 198, 208); border-radius: =
+3px; }
+
+.sidebar { width: 240px; background: rgb(10, 22, 40); height: 100vh; displa=
+y: flex; flex-direction: column; position: fixed; left: 0px; top: 0px; z-in=
+dex: 40; transition: transform 0.25s; overflow: hidden auto; }
+
+.main-area { margin-left: 240px; min-height: 100vh; display: flex; flex-dir=
+ection: column; }
+
+.nav-item { display: flex; align-items: center; padding: 10px 16px; margin:=
+ 2px 8px; border-radius: 8px; cursor: pointer; color: rgb(139, 153, 176); f=
+ont-size: 13px; font-weight: 500; transition: 0.15s; white-space: nowrap; }
+
+.nav-item:hover { background: rgba(255, 255, 255, 0.06); color: rgb(192, 20=
+3, 221); }
+
+.nav-item.active { background: rgba(0, 119, 181, 0.18); color: rgb(0, 160, =
+220); }
+
+.nav-icon { width: 18px; height: 18px; margin-right: 12px; flex-shrink: 0; =
+}
+
+.view-panel { display: none; }
+
+.view-panel.active { display: block; }
+
+.card { background: rgb(255, 255, 255); border-radius: 10px; box-shadow: rg=
+ba(10, 22, 40, 0.06) 0px 1px 4px; }
+
+.form-label { display: block; font-size: 12px; font-weight: 600; color: rgb=
+(55, 65, 81); margin-bottom: 6px; text-transform: uppercase; letter-spacing=
+: 0.04em; }
+
+.form-input { width: 100%; padding: 9px 12px; border: 1.5px solid rgb(221, =
+226, 234); border-radius: 8px; font-size: 14px; background: rgb(255, 255, 2=
+55); transition: border-color 0.15s, box-shadow 0.15s; color: rgb(26, 26, 4=
+6); outline: none; }
+
+.form-input:focus { border-color: rgb(0, 119, 181); box-shadow: rgba(0, 119=
+, 181, 0.1) 0px 0px 0px 3px; }
+
+.form-input::placeholder { color: rgb(156, 163, 175); }
+
+.form-select { width: 100%; padding: 9px 36px 9px 12px; border: 1.5px solid=
+ rgb(221, 226, 234); border-radius: 8px; font-size: 14px; background: url("=
+data:image/svg+xml,%3Csvg xmlns=3D'http://www.w3.org/2000/svg' width=3D'16'=
+ height=3D'16' fill=3D'none' stroke=3D'%236b7280' stroke-width=3D'2' stroke=
+-linecap=3D'round' stroke-linejoin=3D'round'%3E%3Cpath d=3D'm4 6 4 4 4-4'/%=
+3E%3C/svg%3E") right 10px center no-repeat rgb(255, 255, 255); appearance: =
+none; color: rgb(26, 26, 46); outline: none; cursor: pointer; transition: b=
+order-color 0.15s; }
+
+.form-select:focus { border-color: rgb(0, 119, 181); box-shadow: rgba(0, 11=
+9, 181, 0.1) 0px 0px 0px 3px; }
+
+.form-select:disabled { background-color: rgb(243, 244, 246); color: rgb(15=
+6, 163, 175); cursor: not-allowed; }
+
+.tag-container { display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 10p=
+x; border: 1.5px solid rgb(221, 226, 234); border-radius: 8px; min-height: =
+42px; align-items: center; background: rgb(255, 255, 255); cursor: text; tr=
+ansition: border-color 0.15s; }
+
+.tag-container:focus-within { border-color: rgb(0, 119, 181); box-shadow: r=
+gba(0, 119, 181, 0.1) 0px 0px 0px 3px; }
+
+.tag-pill { display: inline-flex; align-items: center; gap: 4px; padding: 3=
+px 10px; background: rgb(230, 243, 250); color: rgb(0, 119, 181); border-ra=
+dius: 20px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+
+.tag-pill button { background: none; border-width: medium; border-style: no=
+ne; border-color: currentcolor; border-image: none; cursor: pointer; color:=
+ rgb(0, 119, 181); padding: 0px; line-height: 1; font-size: 14px; }
+
+.tag-input { border-width: medium; border-style: none; border-color: curren=
+tcolor; border-image: none; outline: none; font-size: 13px; min-width: 120p=
+x; flex: 1 1 0%; background: transparent; color: rgb(26, 26, 46); padding: =
+2px 0px; }
+
+.tag-input::placeholder { color: rgb(156, 163, 175); }
+
+.radio-group { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.radio-btn { padding: 8px 16px; border: 1.5px solid rgb(221, 226, 234); bor=
+der-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; transi=
+tion: 0.15s; background: rgb(255, 255, 255); color: rgb(75, 85, 99); white-=
+space: nowrap; }
+
+.radio-btn.selected { background: rgb(230, 243, 250); border-color: rgb(0, =
+119, 181); color: rgb(0, 119, 181); }
+
+.radio-btn:hover:not(.selected) { border-color: rgb(176, 184, 200); }
+
+.json-preview { background: rgb(15, 31, 58); color: rgb(226, 232, 240); bor=
+der-radius: 10px; padding: 20px; font-family: Consolas, Monaco, "Courier Ne=
+w", monospace; font-size: 12px; line-height: 1.7; overflow: auto; white-spa=
+ce: pre; max-height: calc(-200px + 100vh); }
+
+.json-key { color: rgb(125, 211, 252); }
+
+.json-string { color: rgb(134, 239, 172); }
+
+.json-number { color: rgb(253, 186, 116); }
+
+.json-bool { color: rgb(196, 181, 253); }
+
+.json-null { color: rgb(148, 163, 184); }
+
+.btn-primary { background: rgb(0, 119, 181); color: rgb(255, 255, 255); pad=
+ding: 10px 20px; border-radius: 8px; border-width: medium; border-style: no=
+ne; border-color: currentcolor; border-image: none; font-size: 14px; font-w=
+eight: 600; cursor: pointer; transition: background 0.15s; display: inline-=
+flex; align-items: center; justify-content: center; gap: 8px; }
+
+.btn-primary:hover { background: rgb(0, 95, 143); }
+
+.status-badge { display: inline-flex; align-items: center; gap: 4px; paddin=
+g: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; letter=
+-spacing: 0.02em; }
+
+.badge-pending { background: rgb(237, 240, 245); color: rgb(107, 114, 128);=
+ }
+
+.badge-progress { background: rgb(230, 243, 250); color: rgb(0, 119, 181); =
+}
+
+.badge-complete { background: rgb(230, 244, 237); color: rgb(5, 118, 66); }
+
+.badge-failed { background: rgb(252, 232, 232); color: rgb(204, 16, 22); }
+
+.badge-expired { background: rgb(253, 244, 229); color: rgb(184, 134, 11); =
+}
+
+.stepper { display: flex; align-items: flex-start; justify-content: space-b=
+etween; position: relative; }
+
+.step-item { display: flex; flex-direction: column; align-items: center; fl=
+ex: 1 1 0%; position: relative; z-index: 1; }
+
+.step-circle { width: 48px; height: 48px; border-radius: 50%; display: flex=
+; align-items: center; justify-content: center; font-size: 20px; border: 3p=
+x solid rgb(221, 226, 234); background: rgb(255, 255, 255); transition: 0.3=
+s; position: relative; }
+
+.step-circle.pending { border-color: rgb(221, 226, 234); }
+
+.step-circle.in-progress { border-color: rgb(0, 119, 181); box-shadow: rgba=
+(0, 119, 181, 0.15) 0px 0px 0px 4px; }
+
+.step-circle.complete { border-color: rgb(5, 118, 66); background: rgb(5, 1=
+18, 66); color: rgb(255, 255, 255); }
+
+.step-circle.failed { border-color: rgb(204, 16, 22); background: rgb(204, =
+16, 22); color: rgb(255, 255, 255); }
+
+.step-line { top: 24px; left: calc(50% + 28px); right: calc(-50% + 28px); h=
+eight: 3px; background: rgb(221, 226, 234); z-index: 0; position: relative;=
+ }
+
+.step-line.done { background: rgb(5, 118, 66); }
+
+.step-line.active { background: linear-gradient(90deg, rgb(5, 118, 66), rgb=
+(0, 119, 181)); }
+
+.pulse-dot { width: 8px; height: 8px; background: rgb(0, 119, 181); border-=
+radius: 50%; animation: 1.5s ease-in-out 0s infinite normal none running pu=
+lse; position: absolute; top: -2px; right: -2px; }
+
+@keyframes pulse {=20
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.6); }
+}
+
+.toast { position: fixed; top: 80px; right: 24px; padding: 14px 22px; borde=
+r-radius: 10px; font-size: 14px; font-weight: 500; z-index: 1000; transform=
+: translateX(120%); transition: transform 0.35s; box-shadow: rgba(0, 0, 0, =
+0.12) 0px 6px 20px; display: flex; align-items: center; gap: 8px; max-width=
+: 420px; }
+
+.toast.show { transform: translateX(0px); }
+
+.toast-success { background: rgb(5, 118, 66); color: rgb(255, 255, 255); }
+
+.toast-info { background: rgb(0, 119, 181); color: rgb(255, 255, 255); }
+
+.toast-warning { background: rgb(231, 163, 62); color: rgb(255, 255, 255); =
+}
+
+.modal-overlay { position: fixed; inset: 0px; background: rgba(10, 22, 40, =
+0.5); z-index: 100; display: none; align-items: center; justify-content: ce=
+nter; backdrop-filter: blur(2px); }
+
+.modal-overlay.show { display: flex; }
+
+.modal-content { background: rgb(255, 255, 255); border-radius: 12px; paddi=
+ng: 28px; max-width: 620px; width: 90%; max-height: 80vh; overflow: auto; b=
+ox-shadow: rgba(10, 22, 40, 0.2) 0px 20px 60px; }
+
+.drawer-overlay { position: fixed; inset: 0px; background: rgba(10, 22, 40,=
+ 0.4); z-index: 100; display: none; backdrop-filter: blur(2px); }
+
+.drawer-overlay.show { display: block; }
+
+.drawer-panel { position: fixed; top: 0px; right: -440px; width: 420px; max=
+-width: 90vw; height: 100vh; background: rgb(255, 255, 255); z-index: 101; =
+box-shadow: rgba(10, 22, 40, 0.12) -4px 0px 24px; transition: right 0.3s; o=
+verflow-y: auto; padding: 28px; }
+
+.drawer-panel.open { right: 0px; }
+
+.table-row:hover { background: rgb(240, 246, 251); }
+
+.range-slider { appearance: none; width: 100%; height: 6px; border-radius: =
+3px; background: rgb(221, 226, 234); outline: none; }
+
+.range-slider::-webkit-slider-thumb { appearance: none; width: 20px; height=
+: 20px; border-radius: 50%; background: rgb(0, 119, 181); cursor: pointer; =
+border: 3px solid rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.15) 0px 1=
+px 4px; }
+
+.toggle-track { width: 44px; height: 24px; border-radius: 12px; background:=
+ rgb(221, 226, 234); cursor: pointer; position: relative; transition: backg=
+round 0.2s; flex-shrink: 0; }
+
+.toggle-track.on { background: rgb(0, 119, 181); }
+
+.toggle-knob { width: 20px; height: 20px; border-radius: 50%; background: r=
+gb(255, 255, 255); position: absolute; top: 2px; left: 2px; transition: lef=
+t 0.2s; box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px; }
+
+.toggle-track.on .toggle-knob { left: 22px; }
+
+.linkedin-post-card { border: 1px solid rgb(224, 224, 224); border-radius: =
+10px; background: rgb(255, 255, 255); overflow: hidden; }
+
+.linkedin-actions { display: flex; border-top: 1px solid rgb(232, 232, 232)=
+; }
+
+.linkedin-actions button { flex: 1 1 0%; padding: 10px; background: none; b=
+order-width: medium; border-style: none; border-color: currentcolor; border=
+-image: none; color: rgb(102, 102, 102); font-size: 13px; font-weight: 600;=
+ cursor: pointer; display: flex; align-items: center; justify-content: cent=
+er; gap: 6px; transition: background 0.15s; }
+
+.linkedin-actions button:hover { background: rgb(243, 243, 243); }
+
+.gate-section { border-radius: 10px; padding: 24px; margin-bottom: 20px; bo=
+rder: 2px solid transparent; transition: 0.3s; }
+
+.gate-amber { background: linear-gradient(135deg, rgb(255, 251, 235) 0%, rg=
+b(254, 243, 199) 100%); border-color: rgb(245, 158, 11); }
+
+.gate-blue { background: linear-gradient(135deg, rgb(239, 246, 255) 0%, rgb=
+(219, 234, 254) 100%); border-color: rgb(59, 130, 246); }
+
+.gate-complete { background: rgb(230, 244, 237) !important; border-color: r=
+gb(5, 118, 66) !important; }
+
+.gate-rejected { background: rgb(252, 232, 232) !important; border-color: r=
+gb(204, 16, 22) !important; }
+
+.article-radio-card { border: 2px solid rgb(229, 231, 235); border-radius: =
+10px; padding: 14px 16px; cursor: pointer; transition: 0.2s; background: rg=
+b(255, 255, 255); display: flex; align-items: center; gap: 12px; }
+
+.article-radio-card:hover { border-color: rgb(147, 197, 253); background: r=
+gb(240, 249, 255); }
+
+.article-radio-card.selected { border-color: rgb(0, 119, 181); background: =
+rgb(230, 243, 250); }
+
+.article-radio-card input[type=3D"radio"] { width: 18px; height: 18px; acce=
+nt-color: rgb(0, 119, 181); cursor: pointer; flex-shrink: 0; }
+
+.gate-label { position: relative; display: inline-flex; align-items: center=
+; gap: 6px; font-size: 11px; font-weight: 700; padding: 3px 10px; border-ra=
+dius: 12px; white-space: nowrap; }
+
+.step-gate-marker { position: absolute; top: 12px; left: 50%; transform: tr=
+anslateX(-50%); font-size: 9px; font-weight: 700; padding: 2px 8px; border-=
+radius: 10px; white-space: nowrap; z-index: 2; letter-spacing: 0.02em; }
+
+.step-gate-amber { background: rgb(254, 243, 199); color: rgb(146, 64, 14);=
+ border: 1.5px solid rgb(245, 158, 11); }
+
+.step-gate-green { background: rgb(209, 250, 229); color: rgb(6, 95, 70); b=
+order: 1.5px solid rgb(16, 185, 129); }
+
+.source-domain-pill { display: inline-flex; align-items: center; padding: 2=
+px 8px; background: rgb(243, 244, 246); color: rgb(107, 114, 128); border-r=
+adius: 12px; font-size: 11px; font-weight: 500; }
+
+.countdown-timer { font-family: Consolas, Monaco, monospace; font-size: 15p=
+x; font-weight: 600; color: rgb(0, 119, 181); letter-spacing: 0.03em; }
+
+.disclaimer-checkbox-row { display: flex; align-items: flex-start; gap: 10p=
+x; padding: 14px 16px; background: rgb(255, 255, 255); border: 1.5px solid =
+rgb(209, 213, 219); border-radius: 8px; cursor: pointer; transition: border=
+-color 0.2s; }
+
+.disclaimer-checkbox-row:hover { border-color: rgb(0, 119, 181); }
+
+.disclaimer-checkbox-row input[type=3D"checkbox"] { width: 18px; height: 18=
+px; accent-color: rgb(5, 118, 66); margin-top: 2px; flex-shrink: 0; cursor:=
+ pointer; }
+
+.btn-approve-large { width: 100%; padding: 14px 24px; border-radius: 10px; =
+border-width: medium; border-style: none; border-color: currentcolor; borde=
+r-image: none; font-size: 15px; font-weight: 700; cursor: pointer; transiti=
+on: 0.2s; display: flex; align-items: center; justify-content: center; gap:=
+ 8px; }
+
+.btn-approve-large:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.article-card-selected { box-shadow: rgb(5, 118, 66) 0px 0px 0px 3px; borde=
+r-radius: 10px; }
+
+.gate-summary-bar { display: flex; align-items: center; gap: 10px; padding:=
+ 12px 18px; background: rgb(230, 244, 237); border: 1.5px solid rgb(5, 118,=
+ 66); border-radius: 10px; font-size: 13px; font-weight: 600; color: rgb(6,=
+ 95, 70); margin-bottom: 20px; }
+
+.success-overlay { position: fixed; inset: 0px; background: rgba(10, 22, 40=
+, 0.55); z-index: 200; display: none; align-items: center; justify-content:=
+ center; backdrop-filter: blur(3px); }
+
+.success-overlay.show { display: flex; }
+
+.success-card { background: rgb(255, 255, 255); border-radius: 16px; paddin=
+g: 36px; max-width: 520px; width: 90%; text-align: center; box-shadow: rgba=
+(0, 0, 0, 0.18) 0px 24px 64px; }
+
+.reject-modal-overlay { position: fixed; inset: 0px; background: rgba(10, 2=
+2, 40, 0.5); z-index: 200; display: none; align-items: center; justify-cont=
+ent: center; backdrop-filter: blur(2px); }
+
+.reject-modal-overlay.show { display: flex; }
+
+.kpi-card { background: rgb(255, 255, 255); border-radius: 10px; padding: 2=
+0px 24px; box-shadow: rgba(10, 22, 40, 0.06) 0px 1px 4px; display: flex; al=
+ign-items: center; gap: 16px; }
+
+.kpi-icon-box { width: 48px; height: 48px; border-radius: 12px; display: fl=
+ex; align-items: center; justify-content: center; font-size: 22px; flex-shr=
+ink: 0; }
+
+.kpi-trend { font-size: 12px; font-weight: 600; display: inline-flex; align=
+-items: center; gap: 2px; }
+
+.kpi-trend.up { color: rgb(5, 118, 66); }
+
+.kpi-trend.down { color: rgb(5, 118, 66); }
+
+.kpi-trend.flat { color: rgb(107, 114, 128); }
+
+.config-mono { background: rgb(248, 250, 252); border: 1px solid rgb(237, 2=
+40, 245); border-radius: 8px; padding: 16px; font-family: Consolas, Monaco,=
+ "Courier New", monospace; font-size: 13px; line-height: 1.7; color: rgb(55=
+, 65, 81); white-space: pre-wrap; word-break: break-word; }
+
+.tone-pill { display: inline-flex; padding: 4px 12px; background: rgb(230, =
+243, 250); color: rgb(0, 119, 181); border-radius: 20px; font-size: 12px; f=
+ont-weight: 600; white-space: nowrap; }
+
+.email-badge { display: inline-flex; align-items: center; gap: 8px; padding=
+: 8px 14px; background: rgb(248, 250, 252); border: 1.5px solid rgb(221, 22=
+6, 234); border-radius: 8px; font-size: 13px; }
+
+.notif-bar { display: flex; align-items: center; gap: 10px; padding: 12px 1=
+8px; background: rgb(239, 246, 255); border: 1.5px solid rgb(147, 197, 253)=
+; border-radius: 10px; font-size: 13px; color: rgb(30, 64, 175); margin-bot=
+tom: 16px; cursor: pointer; transition: 0.2s; }
+
+.notif-bar .notif-detail { display: none; margin-top: 6px; font-size: 12px;=
+ color: rgb(59, 130, 246); }
+
+.notif-bar.expanded .notif-detail { display: block; }
+
+.settings-tab { padding: 10px 20px; border-width: medium medium 3px; border=
+-style: none none solid; border-color: currentcolor currentcolor transparen=
+t; border-image: none; background: transparent; font-size: 14px; font-weigh=
+t: 600; color: rgb(107, 114, 128); cursor: pointer; transition: 0.15s; }
+
+.settings-tab.active { color: rgb(0, 119, 181); border-bottom-color: rgb(0,=
+ 119, 181); }
+
+.settings-tab:hover:not(.active) { color: rgb(55, 65, 81); }
+
+.settings-panel { display: none; }
+
+.settings-panel.active { display: block; }
+
+.mobile-topbar { display: none; position: fixed; top: 0px; left: 0px; right=
+: 0px; height: 56px; background: rgb(10, 22, 40); z-index: 50; align-items:=
+ center; padding: 0px 16px; gap: 12px; }
+
+.mobile-nav-drawer { position: fixed; inset: 56px 0px 0px; background: rgb(=
+10, 22, 40); z-index: 49; display: none; flex-direction: column; padding: 1=
+6px 8px; overflow-y: auto; }
+
+.mobile-nav-drawer.show { display: flex; }
+
+.helper-text { font-size: 11px; color: rgb(156, 163, 175); margin-top: 4px;=
+ font-style: italic; }
+
+@media (max-width: 768px) {
+  .sidebar { transform: translateX(-240px); }
+  .main-area { margin-left: 0px !important; padding-top: 56px !important; }
+  .mobile-topbar { display: flex !important; }
+}
+
+@media (min-width: 769px) {
+  .mobile-topbar { display: none !important; }
+  .mobile-nav-drawer { display: none !important; }
+}
+------MultipartBoundary--MSMMhPum4KJhvRIvFi8rsJ1dkILSIlKWOkNNbSoAra------
